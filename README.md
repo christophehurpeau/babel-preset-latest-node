@@ -9,7 +9,7 @@ babel preset latest for node 7 (latest) or node 6 (LTS)
 
 - [babel-preset-env](https://www.npmjs.com/package/babel-preset-env)
 
-### Options
+## Options
 
 - `target`: `6`, `7` or `'current'`
 - `loose`: Enable “loose” transformations for any plugins in this preset that allow them (Disabled by default).
