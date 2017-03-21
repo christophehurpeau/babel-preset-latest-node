@@ -1,3 +1,12 @@
+<a name="0.2.1"></a>
+## [0.2.1](https://github.com/christophehurpeau/babel-preset-latest-node/compare/v0.2.0...v0.2.1) (2017-03-21)
+
+
+### Bug Fixes
+
+* support node 4 ([e3642b7](https://github.com/christophehurpeau/babel-preset-latest-node/commit/e3642b7))
+
+
 <a name="0.2.0"></a>
 # [0.2.0](https://github.com/christophehurpeau/babel-preset-latest-node/compare/v0.1.0...v0.2.0) (2017-03-21)
 
