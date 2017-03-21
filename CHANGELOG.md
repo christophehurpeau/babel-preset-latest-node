@@ -1,3 +1,12 @@
+<a name="0.2.2"></a>
+## [0.2.2](https://github.com/christophehurpeau/babel-preset-latest-node/compare/v0.2.1...v0.2.2) (2017-03-21)
+
+
+### Bug Fixes
+
+* invalid indexOf ([a798238](https://github.com/christophehurpeau/babel-preset-latest-node/commit/a798238))
+
+
 <a name="0.2.1"></a>
 ## [0.2.1](https://github.com/christophehurpeau/babel-preset-latest-node/compare/v0.2.0...v0.2.1) (2017-03-21)
 
