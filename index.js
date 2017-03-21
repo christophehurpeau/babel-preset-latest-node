@@ -8,7 +8,7 @@ module.exports = function (context, opts) {
   // `|| {}` to support node 4
   opts = opts || {};
   // use indexOf to support node 4
-  if (opts.target && validTargetOption.indexOf(opts.target) !== -1) {
+  if (opts.target && validTargetOption.indexOf(opts.target) === -1) {
     throw new Error(`Preset latest-node 'target' option must one of ${validTargetOption.join(', ')}.`);
   }
 
