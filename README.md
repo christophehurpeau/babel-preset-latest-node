@@ -1,5 +1,7 @@
 # babel-preset-latest-node [![NPM version][npm-image]][npm-url]
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/christophehurpeau/babel-preset-latest-node.svg)](https://greenkeeper.io/)
+
 babel preset latest for node 7 (latest) or node 6 (LTS)
 
 [![Dependency ci Status][dependencyci-image]][dependencyci-url]
