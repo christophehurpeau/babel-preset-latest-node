@@ -11,6 +11,7 @@
   "homepage": "https://github.com/christophehurpeau/babel-preset-latest-node",
   "scripts": {
     "clean": "rm -Rf docs dist test/node6 coverage",
+    "test": "jest",
     "lint": "eslint --ext .js,.jsx index.js",
     "prepare": "ln -s ../../git-hooks/pre-commit .git/hooks/pre-commit 2>/dev/null || true ; ln -s ../../git-hooks/post-checkout .git/hooks/post-checkout 2>/dev/null || true ; ln -s ../../git-hooks/post-merge .git/hooks/post-merge 2>/dev/null || true ; ln -s ../../git-hooks/prepare-commit-msg .git/hooks/prepare-commit-msg 2>/dev/null || true",
     "prepublish": "ln -s ../../git-hooks/pre-commit .git/hooks/pre-commit 2>/dev/null || true ; ln -s ../../git-hooks/post-checkout .git/hooks/post-checkout 2>/dev/null || true ; ln -s ../../git-hooks/post-merge .git/hooks/post-merge 2>/dev/null || true ; ln -s ../../git-hooks/prepare-commit-msg .git/hooks/prepare-commit-msg 2>/dev/null || true",
@@ -32,6 +33,7 @@
     "eslint-config-airbnb-base": "^11.1.1",
     "eslint-config-pob": "^11.1.0",
     "eslint-plugin-import": "^2.2.0",
+    "jest": "^20.0.4",
     "komet": "^0.1.4",
     "komet-karma": "^0.2.5",
     "pob-release": "^3.1.0"
