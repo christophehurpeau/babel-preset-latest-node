@@ -22,17 +22,17 @@
   "dependencies": {
     "babel-plugin-check-es2015-constants": "^6.22.0",
     "babel-plugin-syntax-trailing-function-commas": "^6.22.0",
-    "babel-plugin-transform-async-to-generator": "^6.22.0",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
     "babel-plugin-transform-es2015-arrow-functions": "^6.22.0",
-    "babel-plugin-transform-es2015-function-name": "^6.22.0",
-    "babel-plugin-transform-es2015-modules-commonjs": "^6.24.0",
-    "babel-plugin-transform-exponentiation-operator": "^6.22.0"
+    "babel-plugin-transform-es2015-function-name": "^6.24.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.24.1",
+    "babel-plugin-transform-exponentiation-operator": "^6.24.1"
   },
   "devDependencies": {
     "eslint": "^3.18.0",
-    "eslint-config-airbnb-base": "^11.1.1",
-    "eslint-config-pob": "^11.1.0",
-    "eslint-plugin-import": "^2.2.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-config-pob": "^13.0.0",
+    "eslint-plugin-import": "^2.5.0",
     "jest": "^20.0.4",
     "komet": "^0.1.4",
     "komet-karma": "^0.2.5",
