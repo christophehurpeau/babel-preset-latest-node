@@ -1,3 +1,13 @@
+<a name="0.3.0"></a>
+# [0.3.0](https://github.com/christophehurpeau/babel-preset-latest-node/compare/v0.2.2...v0.3.0) (2017-06-22)
+
+
+### Features
+
+* support node 8, versions as string ([a04928c](https://github.com/christophehurpeau/babel-preset-latest-node/commit/a04928c))
+* update dependencies ([9915fd2](https://github.com/christophehurpeau/babel-preset-latest-node/commit/9915fd2))
+
+
 <a name="0.2.2"></a>
 ## [0.2.2](https://github.com/christophehurpeau/babel-preset-latest-node/compare/v0.2.1...v0.2.2) (2017-03-21)
 

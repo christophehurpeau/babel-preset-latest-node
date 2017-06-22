@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-latest-node",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "babel preset latest for node 7 or node 6",
   "keywords": [
     "babel-preset"
