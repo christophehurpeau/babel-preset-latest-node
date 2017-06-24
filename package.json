@@ -29,7 +29,7 @@
     "babel-plugin-transform-exponentiation-operator": "^6.24.1"
   },
   "devDependencies": {
-    "eslint": "^3.18.0",
+    "eslint": "^4.1.0",
     "eslint-config-airbnb-base": "^11.2.0",
     "eslint-config-pob": "^13.0.0",
     "eslint-plugin-import": "^2.5.0",
