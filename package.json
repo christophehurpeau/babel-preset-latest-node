@@ -31,7 +31,7 @@
   "devDependencies": {
     "eslint": "^3.18.0",
     "eslint-config-airbnb-base": "^11.2.0",
-    "eslint-config-pob": "^13.0.0",
+    "eslint-config-pob": "^14.0.0",
     "eslint-plugin-import": "^2.5.0",
     "jest": "^20.0.4",
     "komet": "^0.1.4",
