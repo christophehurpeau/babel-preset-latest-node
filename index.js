@@ -4,13 +4,15 @@
 
 const validTargetOption = ['6', '6.5', '7', '7.6', '8', 'current'];
 
-module.exports = function (context, opts) {
+module.exports = function(context, opts) {
   // `|| {}` to support node 4
   opts = opts || {};
   const targetOption = String(opts.target);
   // use indexOf to support node 4
   if (targetOption && validTargetOption.indexOf(targetOption) === -1) {
-    throw new Error(`Preset latest-node 'target' option must one of ${validTargetOption.join(', ')}.`);
+    throw new Error(
+      `Preset latest-node 'target' option must one of ${validTargetOption.join(', ')}.`
+    );
   }
 
   const target = targetOption !== 'current' ? targetOption : process.versions.node;
@@ -25,10 +27,14 @@ module.exports = function (context, opts) {
   const es2017 = opts.es2017 !== undefined ? opts.es2017 : true;
 
   if (modules !== false && modules !== 'commonjs') {
-    throw new Error("Preset latest-node 'modules' option must be 'false' to indicate no modules\n" +
-      "or 'commonjs' (default)");
+    throw new Error(
+      "Preset latest-node 'modules' option must be 'false' to indicate no modules\n" +
+        "or 'commonjs' (default)"
+    );
   }
-  if (typeof loose !== 'boolean') throw new Error("Preset latest-node 'loose' option must be a boolean.");
+  if (typeof loose !== 'boolean') {
+    throw new Error("Preset latest-node 'loose' option must be a boolean.");
+  }
 
   const optsLoose = { loose };
 
@@ -41,7 +47,10 @@ module.exports = function (context, opts) {
       /* es2015 */
       require('babel-plugin-check-es2015-constants'),
 
-      modules === 'commonjs' && [require('babel-plugin-transform-es2015-modules-commonjs'), optsLoose],
+      modules === 'commonjs' && [
+        require('babel-plugin-transform-es2015-modules-commonjs'),
+        optsLoose,
+      ],
 
       infNode6dot5 && require('babel-plugin-transform-es2015-arrow-functions'), // needed for function-name
       infNode6dot5 && require('babel-plugin-transform-es2015-function-name'),
