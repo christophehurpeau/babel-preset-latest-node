@@ -2,7 +2,7 @@
 
 'use strict';
 
-const validTargetOption = ['6', '6.5', '7', '7.6', '8', 'current'];
+const validTargetOption = ['6', '6.5', '7', '7.6', '8', '8.3', 'current'];
 
 module.exports = function(context, opts) {
   // `|| {}` to support node 4
@@ -21,10 +21,17 @@ module.exports = function(context, opts) {
   const major = Number(splittedTarget[0]);
   const minor = Number(splittedTarget[1]) || 0;
 
+  ['loose', 'es2016', 'es2017', 'esnext'].forEach(optionName => {
+    if (opts[optionName] !== undefined && typeof opts[optionName] !== 'boolean') {
+      throw new Error(`Preset latest-node '${optionName}' option must be a boolean.`);
+    }
+  });
+
   const loose = opts.loose !== undefined ? opts.loose : false;
   const modules = opts.modules !== undefined ? opts.modules : 'commonjs';
   const es2016 = opts.es2016 !== undefined ? opts.es2016 : true;
   const es2017 = opts.es2017 !== undefined ? opts.es2017 : true;
+  const esnext = opts.esnext !== undefined ? opts.esnext : true;
 
   if (modules !== false && modules !== 'commonjs') {
     throw new Error(
@@ -32,15 +39,13 @@ module.exports = function(context, opts) {
         "or 'commonjs' (default)"
     );
   }
-  if (typeof loose !== 'boolean') {
-    throw new Error("Preset latest-node 'loose' option must be a boolean.");
-  }
 
   const optsLoose = { loose };
 
   const infNode6dot5 = major < 6 || (major === 6 && minor < 5);
   const infNode7 = major < 7;
   const infNode7dot6 = major < 7 || (major === 7 && minor < 6);
+  const infNode8dot3 = major < 8 || (major === 8 && minor < 3);
 
   return {
     plugins: [
@@ -61,6 +66,12 @@ module.exports = function(context, opts) {
       /* es2017 */
       es2017 && require('babel-plugin-syntax-trailing-function-commas'),
       es2017 && infNode7dot6 && require('babel-plugin-transform-async-to-generator'),
+
+      /* esnext */
+      esnext &&
+        (infNode8dot3
+          ? [require('babel-plugin-transform-object-rest-spread'), { useBuiltIns: true }]
+          : require('babel-plugin-syntax-object-rest-spread')),
     ].filter(Boolean),
   };
 };
