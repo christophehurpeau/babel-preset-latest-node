@@ -1,3 +1,12 @@
+<a name="0.4.0"></a>
+# [0.4.0](https://github.com/christophehurpeau/babel-preset-latest-node/compare/v0.3.1...v0.4.0) (2017-08-14)
+
+
+### Features
+
+* option esnext and node 8.3 ([f5a0d17](https://github.com/christophehurpeau/babel-preset-latest-node/commit/f5a0d17))
+
+
 <a name="0.3.1"></a>
 ## [0.3.1](https://github.com/christophehurpeau/babel-preset-latest-node/compare/v0.3.0...v0.3.1) (2017-07-09)
 
