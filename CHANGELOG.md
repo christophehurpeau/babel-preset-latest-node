@@ -1,3 +1,12 @@
+<a name="1.0.0"></a>
+# [1.0.0](https://github.com/christophehurpeau/babel-preset-latest-node/compare/v0.4.0...v1.0.0) (2018-02-16)
+
+
+### Features
+
+* add node 9 and rename esnext to shippedProposals ([5754ecd](https://github.com/christophehurpeau/babel-preset-latest-node/commit/5754ecd))
+
+
 <a name="0.4.0"></a>
 # [0.4.0](https://github.com/christophehurpeau/babel-preset-latest-node/compare/v0.3.1...v0.4.0) (2017-08-14)
 
