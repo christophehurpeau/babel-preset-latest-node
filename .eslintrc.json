@@ -1,0 +1,22 @@
+{
+  "extends": "pob/node-lts",
+  "overrides": [
+    {
+      "files": [
+        "lib/**/*.test.js",
+        "lib/__tests__/**/*.js"
+      ],
+      "env": {
+        "jest": true
+      },
+      "rules": {
+        "import/no-extraneous-dependencies": [
+          "error",
+          {
+            "devDependencies": true
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "name": "babel-preset-latest-node",
   "version": "0.4.0",
-  "description": "babel preset latest for node 7 or node 6",
+  "description": "babel preset latest for node 9 (Current), node 8 (Active LTS) or node 6 (Maintenance LTS)",
   "keywords": [
     "babel-preset"
   ],
@@ -9,15 +9,46 @@
   "license": "ISC",
   "repository": "git@github.com:christophehurpeau/babel-preset-latest-node.git",
   "homepage": "https://github.com/christophehurpeau/babel-preset-latest-node",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "main": "./lib/index.js",
   "scripts": {
     "clean": "rm -Rf docs dist test/node6 coverage",
-    "test": "jest",
-    "lint": "eslint --ext .js,.jsx index.js",
-    "prepare": "ln -s ../../git-hooks/pre-commit .git/hooks/pre-commit 2>/dev/null || true ; ln -s ../../git-hooks/post-checkout .git/hooks/post-checkout 2>/dev/null || true ; ln -s ../../git-hooks/post-merge .git/hooks/post-merge 2>/dev/null || true ; ln -s ../../git-hooks/prepare-commit-msg .git/hooks/prepare-commit-msg 2>/dev/null || true",
-    "prepublish": "ln -s ../../git-hooks/pre-commit .git/hooks/pre-commit 2>/dev/null || true ; ln -s ../../git-hooks/post-checkout .git/hooks/post-checkout 2>/dev/null || true ; ln -s ../../git-hooks/post-merge .git/hooks/post-merge 2>/dev/null || true ; ln -s ../../git-hooks/prepare-commit-msg .git/hooks/prepare-commit-msg 2>/dev/null || true",
-    "preversion": "npm run lint && pob-repository-check-clean",
+    "generate:test-coverage": "NODE_ENV=production rm -Rf coverage/ ; jest --coverage --coverageReporters=lcov --coverageDirectory=coverage/",
+    "lint": "eslint lib/",
+    "postcheckout": "./.git-hooks/post-checkout",
+    "postmerge": "./.git-hooks/post-merge",
+    "precommit": "./.git-hooks/pre-commit",
+    "preparecommitmsg": "./.git-hooks/prepare-commit-msg ${GIT_PARAMS}",
+    "preversion": "yarn run lint && pob-repository-check-clean",
     "release": "pob-repository-check-clean && pob-release",
+    "test": "jest",
     "version": "pob-version"
+  },
+  "lint-staged": {
+    "package.json": [
+      "prettier --write",
+      "git add"
+    ],
+    "lib/**/*.json": [
+      "prettier --write",
+      "git add"
+    ],
+    "lib/**/*.js": [
+      "eslint --fix --quiet",
+      "git add"
+    ]
+  },
+  "jest": {
+    "cacheDirectory": "./node_modules/.cache/jest",
+    "testMatch": [
+      "**/lib/**/?(*.)test.js",
+      "**/lib/__tests__/**/*.test.js"
+    ],
+    "collectCoverageFrom": [
+      "lib/**/*.js"
+    ]
   },
   "dependencies": {
     "babel-plugin-check-es2015-constants": "^6.22.0",
@@ -26,21 +57,24 @@
     "babel-plugin-transform-async-to-generator": "^6.24.1",
     "babel-plugin-transform-es2015-arrow-functions": "^6.22.0",
     "babel-plugin-transform-es2015-function-name": "^6.24.1",
-    "babel-plugin-transform-es2015-modules-commonjs": "^6.24.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
     "babel-plugin-transform-exponentiation-operator": "^6.24.1",
-    "babel-plugin-transform-object-rest-spread": "^6.23.0"
+    "babel-plugin-transform-object-rest-spread": "^6.26.0"
   },
   "devDependencies": {
-    "eslint": "^4.4.1",
-    "eslint-config-airbnb-base": "^11.3.1",
-    "eslint-config-pob": "^14.1.2",
-    "eslint-config-prettier": "^2.3.0",
-    "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-prettier": "^2.1.2",
-    "jest": "^20.0.4",
+    "eslint": "^4.17.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-pob": "^17.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-prettier": "^2.6.0",
+    "husky": "^0.14.3",
+    "jest": "^22.3.0",
+    "jest-junit-reporter": "^1.1.0",
     "komet": "^0.1.4",
     "komet-karma": "^0.2.5",
+    "lint-staged": "^5.0.0",
     "pob-release": "^3.1.0",
-    "prettier": "^1.5.3"
+    "prettier": "^1.10.2"
   }
 }
