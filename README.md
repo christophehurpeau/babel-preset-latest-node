@@ -41,8 +41,8 @@
 | <h3>ES2018</h3> ||||||
 | [proposal-object-rest-spread](https://www.npmjs.com/package/@babel/plugin-proposal-object-rest-spread) | no | no | no | no | flag | yes | yes | yes |     
 | [proposal-unicode-property-regex](https://www.npmjs.com/package/@babel/plugin-proposal-unicode-property-regex) | no | no | no | no | no | flag | flag | yes |
-| <h3>Shipped Proposals</h3> ||||||
 | [proposal-async-generator-functions](https://www.npmjs.com/package/@babel/plugin-proposal-async-generator-functions) | no | no | no | no | no | no | flag | yes |
+| <h3>Shipped Proposals</h3> ||||||
 | [syntax-optional-catch-binding](https://www.npmjs.com/package/@babel/plugin-syntax-optional-catch-binding) | no | no | no | no | no | no | no | flag |
 
 ## Install
