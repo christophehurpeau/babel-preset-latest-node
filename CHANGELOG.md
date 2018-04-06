@@ -1,3 +1,12 @@
+<a name="2.0.0-beta.1"></a>
+# [2.0.0-beta.1](https://github.com/christophehurpeau/babel-preset-latest-node/compare/v1.0.0...v2.0.0-beta.1) (2018-04-06)
+
+
+### Features
+
+* babel 7 and node 10 ([0857d96](https://github.com/christophehurpeau/babel-preset-latest-node/commit/0857d96))
+
+
 <a name="1.0.0"></a>
 # [1.0.0](https://github.com/christophehurpeau/babel-preset-latest-node/compare/v0.4.0...v1.0.0) (2018-02-16)
 
