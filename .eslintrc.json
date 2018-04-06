@@ -1,11 +1,8 @@
 {
-  "extends": "pob/node-lts",
+  "extends": ["pob/node"],
   "overrides": [
     {
-      "files": [
-        "lib/**/*.test.js",
-        "lib/__tests__/**/*.js"
-      ],
+      "files": ["lib/**/*.test.js", "lib/__tests__/**/*.js"],
       "env": {
         "jest": true
       },

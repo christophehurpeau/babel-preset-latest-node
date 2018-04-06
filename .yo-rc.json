@@ -3,10 +3,8 @@
     "pob-config": {
       "envs": [],
       "documentation": false,
-      "doclets": false,
       "testing": {
         "circleci": true,
-        "travisci": true,
         "codecov": false
       },
       "entries": [

@@ -1,11 +1,17 @@
-# babel-preset-latest-node [![NPM version][npm-image]][npm-url]
+<h3 align="center">
+  babel-preset-latest-node
+</h3>
 
-babel preset latest for node 9 (Current), node 8 (Active LTS) or node 6 (Maintenance LTS)
+<p align="center">
+  babel preset latest for node 9 (Current), node 8 (Active LTS) or node 6 (Maintenance LTS)
+</p>
 
-[![Build Status][circleci-status-image]][circleci-status-url]
-[![Travis Status][travisci-status-image]][travisci-status-url]
-[![Dependency Status][daviddm-image]][daviddm-url]
-[![Dependency ci Status][dependencyci-image]][dependencyci-url]
+<p align="center">
+  <a href="https://npmjs.org/package/babel-preset-latest-node"><img src="https://img.shields.io/npm/v/babel-preset-latest-node.svg?style=flat-square"></a>
+  <a href="https://circleci.com/gh/christophehurpeau/babel-preset-latest-node"><img src="https://img.shields.io/circleci/project/christophehurpeau/babel-preset-latest-node/master.svg?style=flat-square"></a>
+  <a href="https://david-dm.org/christophehurpeau/babel-preset-latest-node"><img src="https://david-dm.org/christophehurpeau/babel-preset-latest-node.svg?style=flat-square"></a>
+  <a href="https://dependencyci.com/github/christophehurpeau/babel-preset-latest-node"><img src="https://dependencyci.com/github/christophehurpeau/babel-preset-latest-node/badge?style=flat-square"></a>
+</p>
 
 ## Alternatives
 
@@ -80,14 +86,3 @@ require("babel-core").transform("code", {
   presets: [[require('babel-preset-latest-node'), { target: 'current' }]]
 });
 ```
-
-[npm-image]: https://img.shields.io/npm/v/babel-preset-latest-node.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/babel-preset-latest-node
-[daviddm-image]: https://david-dm.org/christophehurpeau/babel-preset-latest-node.svg?style=flat-square
-[daviddm-url]: https://david-dm.org/christophehurpeau/babel-preset-latest-node
-[dependencyci-image]: https://dependencyci.com/github/christophehurpeau/babel-preset-latest-node/badge?style=flat-square
-[dependencyci-url]: https://dependencyci.com/github/christophehurpeau/babel-preset-latest-node
-[circleci-status-image]: https://img.shields.io/circleci/project/christophehurpeau/babel-preset-latest-node/master.svg?style=flat-square
-[circleci-status-url]: https://circleci.com/gh/christophehurpeau/babel-preset-latest-node
-[travisci-status-image]: https://img.shields.io/travis/christophehurpeau/babel-preset-latest-node/master.svg?style=flat-square
-[travisci-status-url]: https://travis-ci.org/christophehurpeau/babel-preset-latest-node
