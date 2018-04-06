@@ -32,7 +32,7 @@
 | Feature | Node 6 | Node 6.5 | Node 7 | Node 7.6 | Node 8 | Node 8.3 | Node 9 |
 | ------- | ------ | -------- | ------ | -------- | ------ | -------- | ------ |
 | <h3>ES2015</h3> ||||||
-| [transform-es2015-modules-commonjs](https://babeljs.io/docs/plugins/transform-es2015-modules-commonjs) | no | no | no | no | no | no | no |
+| [transform-es2015-modules-commonjs](https://babeljs.io/docs/plugins/transform-es2015-modules-commonjs) | no | no | no | no | no | no | flag |
 | [transform-es2015-function-name](https://babeljs.io/docs/plugins/transform-es2015-function-name) | flag | yes | yes | yes | yes | yes | yes |
 | <h3>ES2016</h3> ||||||
 | [transform-exponentiation-operator](https://babeljs.io/docs/plugins/transform-exponentiation-operator) | no | flag | yes | yes | yes | yes | yes |
