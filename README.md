@@ -24,30 +24,35 @@
 - `modules` - Enable transformation of ES6 module syntax to another module type (Enabled by default to "commonjs"). Can be false to not transform modules, or "commonjs"
 - `es2016` - Enable es2016 features (Enabled by default)
 - `es2017` - Enable es2017 features (Enabled by default)
-- `shippedProposals` (previously `esnext`) - Enable features in stages but already available in recent node version (Enabled by default)
+- `shippedProposals` - Enable features in stages but already available in recent node version (Enabled by default)
 
 ## [Compatibility Table](http://node.green/)
 
 
-| Feature | Node 6 | Node 6.5 | Node 7 | Node 7.6 | Node 8 | Node 8.3 | Node 9 |
-| ------- | ------ | -------- | ------ | -------- | ------ | -------- | ------ |
+| Feature | Node 6 | Node 6.5 | Node 7 | Node 7.6 | Node 8 | Node 8.3 | Node 9 | Node 10 |
+| ------- | ------ | -------- | ------ | -------- | ------ | -------- | ------ | ------- |
 | <h3>ES2015</h3> ||||||
-| [transform-es2015-modules-commonjs](https://babeljs.io/docs/plugins/transform-es2015-modules-commonjs) | no | no | no | no | no | no | flag |
-| [transform-es2015-function-name](https://babeljs.io/docs/plugins/transform-es2015-function-name) | flag | yes | yes | yes | yes | yes | yes |
+| [transform-modules-commonjs](https://www.npmjs.com/package/@babel/plugin-transform-modules-commonjs) | no | no | no | no | no | no | flag | flag |
+| [transform-function-name](https://www.npmjs.com/package/@babel/plugin-transform-function-name) | flag | yes | yes | yes | yes | yes | yes | yes |
 | <h3>ES2016</h3> ||||||
-| [transform-exponentiation-operator](https://babeljs.io/docs/plugins/transform-exponentiation-operator) | no | flag | yes | yes | yes | yes | yes |
+| [transform-exponentiation-operator](https://www.npmjs.com/package/@babel/plugin-transform-exponentiation-operator) | no | flag | yes | yes | yes | yes | yes | yes |
 | <h3>ES2017</h3> ||||||
-| [syntax-trailing-function-commas](https://babeljs.io/docs/plugins/syntax-trailing-function-commas) | no | no | no | no | yes | yes | yes |
-| [transform-async-to-generator](https://babeljs.io/docs/plugins/transform-async-to-generator) | no | no | flag | yes | yes | yes | yes |
+| [transform-async-to-generator](https://www.npmjs.com/package/@babel/transform-async-to-generator) | no | no | flag | yes | yes | yes | yes | yes |
+| <h3>ES2018</h3> ||||||
+| [proposal-object-rest-spread](https://www.npmjs.com/package/@babel/plugin-proposal-object-rest-spread) | no | no | no | no | flag | yes | yes | yes |     
+| [proposal-unicode-property-regex](https://www.npmjs.com/package/@babel/plugin-proposal-unicode-property-regex) | no | no | no | no | no | flag | flag | yes |
 | <h3>Shipped Proposals</h3> ||||||
-| [transform-object-rest-spread](https://babeljs.io/docs/plugins/transform-object-rest-spread) | no | no | no | no | flag | yes | yes |
+| [proposal-async-generator-functions](https://www.npmjs.com/package/@babel/plugin-proposal-async-generator-functions) | no | no | no | no | no | no | flag | yes |
+| [syntax-optional-catch-binding](https://www.npmjs.com/package/@babel/plugin-syntax-optional-catch-binding) | no | no | no | no | no | no | no | flag |
 
 ## Install
 
 ```bash
-npm install --save-dev babel-preset-latest-node
-yarn add --dev babel-preset-latest-node
+npm install --save-dev @babel/core babel-preset-latest-node@next
+yarn add --dev @babel/core babel-preset-latest-node@next
 ```
+
+You need to use `@next` to use the babel 7 version.
 
 ## Usage
 
