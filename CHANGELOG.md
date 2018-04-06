@@ -1,3 +1,12 @@
+<a name="2.0.0-beta.2"></a>
+# [2.0.0-beta.2](https://github.com/christophehurpeau/babel-preset-latest-node/compare/v2.0.0-beta.1...v2.0.0-beta.2) (2018-04-06)
+
+
+### Bug Fixes
+
+* async iterators is in the es2018 spec ([1ecaaf8](https://github.com/christophehurpeau/babel-preset-latest-node/commit/1ecaaf8))
+
+
 <a name="2.0.0-beta.1"></a>
 # [2.0.0-beta.1](https://github.com/christophehurpeau/babel-preset-latest-node/compare/v1.0.0...v2.0.0-beta.1) (2018-04-06)
 
