@@ -1,3 +1,9 @@
+<a name="2.0.0-beta.3"></a>
+# [2.0.0-beta.3](https://github.com/christophehurpeau/babel-preset-latest-node/compare/v2.0.0-beta.2...v2.0.0-beta.3) (2018-04-27)
+
+drop node4 support
+
+
 <a name="2.0.0-beta.2"></a>
 # [2.0.0-beta.2](https://github.com/christophehurpeau/babel-preset-latest-node/compare/v2.0.0-beta.1...v2.0.0-beta.2) (2018-04-06)
 
