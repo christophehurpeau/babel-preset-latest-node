@@ -3,7 +3,7 @@
 </h3>
 
 <p align="center">
-  babel preset latest for node 9 (Current), node 8 (Active LTS) or node 6 (Maintenance LTS)
+  babel preset latest for node 10 (Current), node 8 (Active LTS) or node 6 (Maintenance LTS)
 </p>
 
 <p align="center">
@@ -19,7 +19,7 @@
 
 ## Options
 
-- `target`: `6`, `6.5`, `7`, `7.6`, `8`, `8.3`, `9`, `10` or `'current'`
+- `target`: `6`, `6.5`, `7`, `7.6`, `8`, `8.3`, `9`, `10` or `'current'` (`process.versions.node`)
 - `loose`: Enable “loose” transformations for any plugins in this preset that allow them (Disabled by default).
 - `modules` - Enable transformation of ES6 module syntax to another module type (Enabled by default to "commonjs"). Can be false to not transform modules, or "commonjs"
 - `es2016` - Enable es2016 features (Enabled by default)
