@@ -68,6 +68,6 @@
     "lint-staged": "^7.0.5",
     "pob-release": "^4.1.1",
     "prettier": "^1.12.1",
-    "yarnhook": "^0.2.0"
+    "yarnhook": "^0.3.0"
   }
 }
