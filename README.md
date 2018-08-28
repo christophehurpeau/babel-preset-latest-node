@@ -13,6 +13,10 @@
   <a href="https://dependencyci.com/github/christophehurpeau/babel-preset-latest-node"><img src="https://dependencyci.com/github/christophehurpeau/babel-preset-latest-node/badge?style=flat-square"></a>
 </p>
 
+# babel 7
+
+Since v2, this package requires `@babel/core@&7.0.0`. If you use babel 6, you can still use the version "1.0.0" of this package. If you want to migrate, you can read the [announcement](https://babeljs.io/blog/2018/08/27/7.0.0) and the [official migration guide](https://babeljs.io/docs/en/v7-migration).
+
 ## Alternatives
 
 - [babel-preset-env](https://www.npmjs.com/package/babel-preset-env)
@@ -39,7 +43,7 @@
 | <h3>ES2017</h3> ||||||
 | [transform-async-to-generator](https://www.npmjs.com/package/@babel/transform-async-to-generator) | no | no | flag | yes | yes | yes | yes | yes |
 | <h3>ES2018</h3> ||||||
-| [proposal-object-rest-spread](https://www.npmjs.com/package/@babel/plugin-proposal-object-rest-spread) | no | no | no | no | flag | yes | yes | yes |     
+| [proposal-object-rest-spread](https://www.npmjs.com/package/@babel/plugin-proposal-object-rest-spread) | no | no | no | no | flag | yes | yes | yes |
 | [proposal-unicode-property-regex](https://www.npmjs.com/package/@babel/plugin-proposal-unicode-property-regex) | no | no | no | no | no | flag | flag | yes |
 | [proposal-async-generator-functions](https://www.npmjs.com/package/@babel/plugin-proposal-async-generator-functions) | no | no | no | no | no | no | flag | yes |
 | <h3>Shipped Proposals</h3> ||||||
