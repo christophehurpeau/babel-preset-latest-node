@@ -19,7 +19,7 @@ Since v2, this package requires `@babel/core@&7.0.0`. If you use babel 6, you ca
 
 ## Alternatives
 
-- [babel-preset-env](https://www.npmjs.com/package/babel-preset-env)
+- [@babel/preset-env](https://www.npmjs.com/package/@babel/preset-env), especially `targets.node`
 
 ## Options
 
