@@ -1,3 +1,7 @@
+<a name="3.0.1"></a>
+## [3.0.1](https://github.com/christophehurpeau/babel-preset-latest-node/compare/v3.0.0...v3.0.1) (2018-11-23)
+
+
 <a name="3.0.0"></a>
 # [3.0.0](https://github.com/christophehurpeau/babel-preset-latest-node/compare/v2.1.0...v3.0.0) (2018-11-23)
 
