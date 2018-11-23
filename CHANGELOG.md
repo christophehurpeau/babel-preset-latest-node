@@ -1,3 +1,19 @@
+<a name="3.0.0"></a>
+# [3.0.0](https://github.com/christophehurpeau/babel-preset-latest-node/compare/v2.1.0...v3.0.0) (2018-11-23)
+
+
+### Features
+
+* drop node 7 ([8b504ec](https://github.com/christophehurpeau/babel-preset-latest-node/commit/8b504ec))
+* drop node 9 ([8a4a729](https://github.com/christophehurpeau/babel-preset-latest-node/commit/8a4a729))
+
+
+### BREAKING CHANGES
+
+* 9 no longer works in target
+* 7 and 7.5 no longer works in target
+
+
 <a name="2.1.0"></a>
 # [2.1.0](https://github.com/christophehurpeau/babel-preset-latest-node/compare/v2.0.2...v2.1.0) (2018-11-23)
 
