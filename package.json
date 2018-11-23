@@ -2,7 +2,7 @@
   "name": "babel-preset-latest-node",
   "version": "2.0.2",
   "description":
-    "babel preset latest for node 10 (Current), node 8 (Active LTS) or node 6 (Maintenance LTS)",
+    "babel preset latest for node 11 (Current), node 10 (Active LTS) node 8 (Maintenance LTS April 2019) or node 6 (EOL April 2019)",
   "keywords": ["babel-preset"],
   "author": "Christophe Hurpeau <christophe@hurpeau.com> (https://christophe.hurpeau.com)",
   "license": "ISC",
@@ -49,6 +49,7 @@
   "dependencies": {
     "@babel/plugin-proposal-async-generator-functions": "^7.0.0",
     "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/plugin-proposal-optional-catch-binding": "^7.0.0",
     "@babel/plugin-proposal-unicode-property-regex": "^7.0.0",
     "@babel/plugin-syntax-async-generators": "^7.0.0",
     "@babel/plugin-syntax-object-rest-spread": "^7.0.0",
