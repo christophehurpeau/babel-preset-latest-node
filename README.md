@@ -34,21 +34,21 @@ Since v2, this package requires `@babel/core@^7.0.0`. If you use babel 6, you ca
 ## [Compatibility Table](http://node.green/)
 
 
-| Feature | Node 6 | Node 6.5 | Node 8 | Node 8.3 | Node 9 | Node 10 | Node 10.13 | Node 11 |
-| ------- | ------ | -------- | ------ | -------- | ------ | ------- | ---------- | ------- |
+| Feature | Node 6 | Node 6.5 | Node 8 | Node 8.3 | Node 10 | Node 10.13 | Node 11 |
+| ------- | ------ | -------- | ------ | -------- | ------- | ---------- | ------- |
 | <h3>ES2015</h3> ||||||
-| [transform-modules-commonjs](https://www.npmjs.com/package/@babel/plugin-transform-modules-commonjs) | no | no | no | no | flag | flag | flag | flag |
-| [transform-function-name](https://www.npmjs.com/package/@babel/plugin-transform-function-name) | flag | yes | yes | yes | yes | yes | yes | yes |
+| [transform-modules-commonjs](https://www.npmjs.com/package/@babel/plugin-transform-modules-commonjs) | no | no | no | no | flag | flag | flag |
+| [transform-function-name](https://www.npmjs.com/package/@babel/plugin-transform-function-name) | flag | yes | yes | yes | yes | yes | yes |
 | <h3>ES2016</h3> ||||||
-| [transform-exponentiation-operator](https://www.npmjs.com/package/@babel/plugin-transform-exponentiation-operator) | no | flag | yes | yes | yes | yes | yes | yes |
+| [transform-exponentiation-operator](https://www.npmjs.com/package/@babel/plugin-transform-exponentiation-operator) | no | flag | yes | yes | yes | yes | yes |
 | <h3>ES2017</h3> ||||||
-| [transform-async-to-generator](https://www.npmjs.com/package/@babel/transform-async-to-generator) | no | no | yes | yes | yes | yes | yes | yes |
+| [transform-async-to-generator](https://www.npmjs.com/package/@babel/transform-async-to-generator) | no | no | yes | yes | yes | yes | yes |
 | <h3>ES2018</h3> ||||||
-| [proposal-object-rest-spread](https://www.npmjs.com/package/@babel/plugin-proposal-object-rest-spread) | no | no | flag | yes | yes | yes | yes | yes |
-| [proposal-unicode-property-regex](https://www.npmjs.com/package/@babel/plugin-proposal-unicode-property-regex) | no | no | no | flag | flag | yes | yes | yes |
-| [proposal-async-generator-functions](https://www.npmjs.com/package/@babel/plugin-proposal-async-generator-functions) | no | no | no | no | flag | yes | yes | yes |
+| [proposal-object-rest-spread](https://www.npmjs.com/package/@babel/plugin-proposal-object-rest-spread) | no | no | flag | yes | yes | yes | yes |
+| [proposal-unicode-property-regex](https://www.npmjs.com/package/@babel/plugin-proposal-unicode-property-regex) | no | no | no | flag | yes | yes | yes |
+| [proposal-async-generator-functions](https://www.npmjs.com/package/@babel/plugin-proposal-async-generator-functions) | no | no | no | no | yes | yes | yes |
 | <h3>Shipped Proposals</h3> ||||||
-| [syntax-optional-catch-binding](https://www.npmjs.com/package/@babel/plugin-syntax-optional-catch-binding) | no | no | no | no | no | flag | yes | yes |
+| [syntax-optional-catch-binding](https://www.npmjs.com/package/@babel/plugin-syntax-optional-catch-binding) | no | no | no | no | flag | yes | yes |
 
 ## Install
 
