@@ -1,3 +1,13 @@
+<a name="2.1.0"></a>
+# [2.1.0](https://github.com/christophehurpeau/babel-preset-latest-node/compare/v2.0.2...v2.1.0) (2018-11-23)
+
+
+### Features
+
+* add node 10.13, 11 support and plugin-proposal-optional-catch-binding ([2fb4dc9](https://github.com/christophehurpeau/babel-preset-latest-node/commit/2fb4dc9))
+* update plugins deps ([e349573](https://github.com/christophehurpeau/babel-preset-latest-node/commit/e349573))
+
+
 <a name="2.0.2"></a>
 ## [2.0.2](https://github.com/christophehurpeau/babel-preset-latest-node/compare/v2.0.1...v2.0.2) (2018-08-28)
 
