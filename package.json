@@ -2,9 +2,7 @@
   "name": "babel-preset-latest-node",
   "version": "3.0.1",
   "description": "babel preset latest for node 11 (Current), node 10 (Active LTS) node 8 (Maintenance LTS April 2019) or node 6 (EOL April 2019)",
-  "keywords": [
-    "babel-preset"
-  ],
+  "keywords": ["babel-preset"],
   "author": "Christophe Hurpeau <christophe@hurpeau.com> (https://christophe.hurpeau.com)",
   "license": "ISC",
   "repository": "git@github.com:christophehurpeau/babel-preset-latest-node.git",
@@ -33,17 +31,11 @@
   },
   "lint-staged": {
     "{package.json,.eslintrc.json}": [
-      "prettier --write",
+      "prettier --parser json --write",
       "git add"
     ],
-    "lib/**/*.json": [
-      "prettier --write",
-      "git add"
-    ],
-    "lib/**/*.js": [
-      "eslint --fix --quiet",
-      "git add"
-    ]
+    "lib/**/*.json": ["prettier --parser json --write", "git add"],
+    "lib/**/*.js": ["eslint --fix --quiet", "git add"]
   },
   "prettier": {
     "trailingComma": "es5",
@@ -51,9 +43,7 @@
     "arrowParens": "always"
   },
   "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ]
+    "extends": ["@commitlint/config-conventional"]
   },
   "jest": {
     "cacheDirectory": "./node_modules/.cache/jest",
@@ -61,12 +51,8 @@
       "<rootDir>/lib/**/__tests__/**/*.js",
       "<rootDir>/lib/**/*.test.js"
     ],
-    "collectCoverageFrom": [
-      "lib/**/*.js"
-    ],
-    "moduleFileExtensions": [
-      "js"
-    ]
+    "collectCoverageFrom": ["lib/**/*.js"],
+    "moduleFileExtensions": ["js"]
   },
   "dependencies": {
     "@babel/plugin-proposal-async-generator-functions": "^7.1.0",
