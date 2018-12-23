@@ -4817,10 +4817,10 @@ pn@^1.1.0:
   resolved "https://registry.yarnpkg.com/pn/-/pn-1.1.0.tgz#e2f4cef0e219f463c179ab37463e4e1ecdccbafb"
   integrity sha512-2qHaIQr2VLRFoxe2nASzsV6ef4yOOH+Fi9FBOVH6cqeSgUnoyySPZkxzLuzd+RYOQTRpROA0ztTMqxROKSb/nA==
 
-pob-release@4.6.1:
-  version "4.6.1"
-  resolved "https://registry.yarnpkg.com/pob-release/-/pob-release-4.6.1.tgz#5adb0865069f41c1fe1de1518524fabd67d44f3a"
-  integrity sha512-GqQAb6rdrJKM0TgzI0h0Xquk+vCQ+lBjk/ZkFpX86saErD4j02fs/Bud4ABOf2B7EOvTlZxGlec9bX+S0GfDVg==
+pob-release@4.6.3:
+  version "4.6.3"
+  resolved "https://registry.yarnpkg.com/pob-release/-/pob-release-4.6.3.tgz#b2d52e8064f587c76a16b952fbaae8302894ee4c"
+  integrity sha512-mwWsHJncCLlkY207X33SW3qgkpDO344zMQnOt6ypKf5FS5+anWGBeE+ZZVW6kx1qnyw0L2UyWCrBOCjhv2+lHQ==
   dependencies:
     conventional-recommended-bump "^0.3.0"
     inquirer "^6.0.0"
