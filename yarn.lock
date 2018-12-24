@@ -1470,7 +1470,7 @@ cosmiconfig@^4.0.0:
     parse-json "^4.0.0"
     require-from-string "^2.0.1"
 
-cosmiconfig@^5.0.6:
+cosmiconfig@^5.0.7:
   version "5.0.7"
   resolved "https://registry.yarnpkg.com/cosmiconfig/-/cosmiconfig-5.0.7.tgz#39826b292ee0d78eda137dfa3173bd1c21a43b04"
   integrity sha512-PcLqxTKiDmNT6pSpy4N6KtuPwb53W+2tzNvwOZw0WH9N6O0vLIBq0x8aj8Oj75ere4YcGi48bDFCL+3fRJdlNA==
@@ -1819,10 +1819,10 @@ eslint-config-airbnb-base@^13.1.0:
     object.assign "^4.1.0"
     object.entries "^1.0.4"
 
-eslint-config-pob@24.0.2:
-  version "24.0.2"
-  resolved "https://registry.yarnpkg.com/eslint-config-pob/-/eslint-config-pob-24.0.2.tgz#45a81c550d34913d12228c51291c604981234716"
-  integrity sha512-FQqShrjWin15DPMAXWfPFOoiKqyUVvUceqx1b7/yURz/ZOWocmPYMj4sj8a6j+q0ZR1C4Bk2u1KKqAiDdfgMKg==
+eslint-config-pob@24.0.3:
+  version "24.0.3"
+  resolved "https://registry.yarnpkg.com/eslint-config-pob/-/eslint-config-pob-24.0.3.tgz#b6c274231f0155f16864cb2f272a8beb9c078ab5"
+  integrity sha512-dv1VrIWaREVQPiq2Y9hKQJkwo29rMmfO0p7VzXIK0ISJLkrr1HhhSxPuYHs8oD//RbaajFF4OdrcD9K5j3jHag==
   dependencies:
     eslint-config-airbnb-base "^13.1.0"
     eslint-config-prettier "^3.3.0"
@@ -1940,10 +1940,10 @@ eslint-visitor-keys@^1.0.0:
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-1.0.0.tgz#3f3180fb2e291017716acb4c9d6d5b5c34a6a81d"
   integrity sha512-qzm/XxIbxm/FHyH341ZrbnMUpe+5Bocte9xkmFMzPMjRaZMcXww+MpBptFvtU+79L362nqiLhekCxCxDPaUMBQ==
 
-eslint@5.10.0:
-  version "5.10.0"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-5.10.0.tgz#24adcbe92bf5eb1fc2d2f2b1eebe0c5e0713903a"
-  integrity sha512-HpqzC+BHULKlnPwWae9MaVZ5AXJKpkxCVXQHrFaRw3hbDj26V/9ArYM4Rr/SQ8pi6qUPLXSSXC4RBJlyq2Z2OQ==
+eslint@5.11.0:
+  version "5.11.0"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-5.11.0.tgz#51a0e70f137a425fe044cd48273b96f28a774b1f"
+  integrity sha512-gbEg0ttToZPkZUv2yYjpipxuYrv/9aSSmgM4V6GkiO3u04QosHYBtduUCqLEulEg3YvNDAkk3OWzyQJ/heZ3Nw==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     ajv "^6.5.3"
@@ -2695,12 +2695,12 @@ http-signature@~1.2.0:
     jsprim "^1.2.2"
     sshpk "^1.7.0"
 
-husky@1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/husky/-/husky-1.2.0.tgz#d631dda1e4a9ee8ba69a10b0c51a0e2c66e711e5"
-  integrity sha512-/ib3+iycykXC0tYIxsyqierikVa9DA2DrT32UEirqNEFVqOj1bFMTgP3jAz8HM7FgC/C8pc/BTUa9MV2GEkZaA==
+husky@1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/husky/-/husky-1.2.1.tgz#33628f7013e345c1790a4dbe4642ad047f772dee"
+  integrity sha512-4Ylal3HWhnDvIszuiyLoVrSGI7QLg/ogkNCoHE34c+yZYzb9kBZNrlTOsdw92cGi3cJT8pPb6CdVfxFkLnc8Dg==
   dependencies:
-    cosmiconfig "^5.0.6"
+    cosmiconfig "^5.0.7"
     execa "^1.0.0"
     find-up "^3.0.0"
     get-stdin "^6.0.0"
@@ -4817,10 +4817,10 @@ pn@^1.1.0:
   resolved "https://registry.yarnpkg.com/pn/-/pn-1.1.0.tgz#e2f4cef0e219f463c179ab37463e4e1ecdccbafb"
   integrity sha512-2qHaIQr2VLRFoxe2nASzsV6ef4yOOH+Fi9FBOVH6cqeSgUnoyySPZkxzLuzd+RYOQTRpROA0ztTMqxROKSb/nA==
 
-pob-release@4.6.1:
-  version "4.6.1"
-  resolved "https://registry.yarnpkg.com/pob-release/-/pob-release-4.6.1.tgz#5adb0865069f41c1fe1de1518524fabd67d44f3a"
-  integrity sha512-GqQAb6rdrJKM0TgzI0h0Xquk+vCQ+lBjk/ZkFpX86saErD4j02fs/Bud4ABOf2B7EOvTlZxGlec9bX+S0GfDVg==
+pob-release@4.6.3:
+  version "4.6.3"
+  resolved "https://registry.yarnpkg.com/pob-release/-/pob-release-4.6.3.tgz#b2d52e8064f587c76a16b952fbaae8302894ee4c"
+  integrity sha512-mwWsHJncCLlkY207X33SW3qgkpDO344zMQnOt6ypKf5FS5+anWGBeE+ZZVW6kx1qnyw0L2UyWCrBOCjhv2+lHQ==
   dependencies:
     conventional-recommended-bump "^0.3.0"
     inquirer "^6.0.0"
