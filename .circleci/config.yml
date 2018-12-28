@@ -50,7 +50,7 @@ jobs:
 
   test-node10:
     docker:
-      - image: circleci/node:10.14
+      - image: circleci/node:10.15
     steps:
       - checkout
       - restore_cache:
