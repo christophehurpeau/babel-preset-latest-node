@@ -53,11 +53,9 @@ Since v2, this package requires `@babel/core@^7.0.0`. If you use babel 6, you ca
 ## Install
 
 ```bash
-npm install --save-dev @babel/core babel-preset-latest-node@next
-yarn add --dev @babel/core babel-preset-latest-node@next
+npm install --save-dev @babel/core babel-preset-latest-node
+yarn add --dev @babel/core babel-preset-latest-node
 ```
-
-You need to use `@next` to use the babel 7 version.
 
 ## Usage
 
