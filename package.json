@@ -76,7 +76,7 @@
     "@commitlint/cli": "7.3.2",
     "@commitlint/config-conventional": "7.3.1",
     "@types/jest": "23.3.10",
-    "eslint": "5.11.0",
+    "eslint": "5.12.1",
     "eslint-config-pob": "25.0.0",
     "eslint-plugin-import": "2.14.0",
     "eslint-plugin-node": "8.0.1",
