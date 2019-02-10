@@ -1869,21 +1869,21 @@ eslint-config-airbnb-base@^13.1.0:
     object.assign "^4.1.0"
     object.entries "^1.0.4"
 
-eslint-config-pob@25.0.0:
-  version "25.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-pob/-/eslint-config-pob-25.0.0.tgz#5708b659a6985b9ff49c9194b83faddcada27849"
-  integrity sha512-w8JDy5uXwbbq9NgNiHc6jtwxOpe2anEedqwiL3885Z6FKH/Ue6NFVdW8mTTwg8ZHoajvgxJ7S45JjpPmUhYW+w==
+eslint-config-pob@27.0.0:
+  version "27.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-pob/-/eslint-config-pob-27.0.0.tgz#017d86e3168979642d5b5f97e63b6a2fc9d1744b"
+  integrity sha512-skN3Jb0SapBhT7pOW3bp8gOnzHstTQPKEbbSFVQMvYvE2BdaNKCjANhSMcjV4SjTIyApJzSGZQ/z8+A/CMRl2w==
   dependencies:
     eslint-config-airbnb-base "^13.1.0"
-    eslint-config-prettier "^3.4.0"
+    eslint-config-prettier "^4.0.0"
     eslint-plugin-prefer-class-properties "^1.0.0"
     eslint-plugin-prettier "^3.0.1"
     eslint-plugin-unicorn "^7.0.0"
 
-eslint-config-prettier@^3.4.0:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-3.4.0.tgz#97dd5bf33d4d85862fdadf2ea89b4d6cebf3ba4f"
-  integrity sha512-VDBMmnwA1SH4tGoyTVStbjI18xAFtozvrodjEuoqtP/P/XLJs5Ga8sFf7GSSPxAkgh65CGYT/zOXzsf2IA0aqw==
+eslint-config-prettier@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-4.0.0.tgz#16cedeea0a56e74de60dcbbe3be0ab2c645405b9"
+  integrity sha512-kWuiJxzV5NwOwZcpyozTzDT5KJhBw292bbYro9Is7BWnbNMg15Gmpluc1CTetiCatF8DRkNvgPAOaSyg+bYr3g==
   dependencies:
     get-stdin "^6.0.0"
 
