@@ -73,8 +73,8 @@
   },
   "devDependencies": {
     "@babel/core": "7.2.2",
-    "@commitlint/cli": "7.3.2",
-    "@commitlint/config-conventional": "7.3.1",
+    "@commitlint/cli": "7.5.2",
+    "@commitlint/config-conventional": "7.5.0",
     "@types/jest": "23.3.10",
     "eslint": "5.12.1",
     "eslint-config-pob": "25.0.0",
