@@ -6327,10 +6327,10 @@ yargs@~3.10.0:
     decamelize "^1.0.0"
     window-size "0.1.0"
 
-yarnhook@0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/yarnhook/-/yarnhook-0.3.0.tgz#9a4bd1248b7a126ed78cb332b0800f2d76a38fa8"
-  integrity sha512-9eyVNDsA1nVl9pumtAxd/oc+H4k0PEZFazAcKSVmuT/MT40k3qUK31mnAoX5NV2wQxBEKvvwRRJqB9Z0BVuUvA==
+yarnhook@0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/yarnhook/-/yarnhook-0.4.0.tgz#767b22f4ad446553c6eb86090c326d6e32ad0fe2"
+  integrity sha512-ERMvT3SEVPg9eaGEczd/lY4o3ZpNeMx5aQj7WCA00/i0o02DmcXrsmO5rg/fqR3S+/JkXNYdnoFXR1rGVpNy5A==
   dependencies:
     execa "^0.8.0"
     find-parent-dir "^0.3.0"
