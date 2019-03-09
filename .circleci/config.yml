@@ -23,14 +23,13 @@ jobs:
       - run:
           name: tests
           command: yarn run test
-# TODO: fix the date in the generated coverage
-#      - run:
-#          name: Check nothing was forget before commit
-#          command: npx pob-repository-check-clean
+      - run:
+          name: Check nothing was forget before commit
+          command: yarn run repository-check-dirty
 
   test-node11:
     docker:
-      - image: circleci/node:11.6
+      - image: circleci/node:11.10
     steps:
       - checkout
       - restore_cache:

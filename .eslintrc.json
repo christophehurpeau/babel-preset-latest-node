@@ -1,5 +1,6 @@
 {
-  "extends": ["pob", "pob/node"],
+  "root": true,
+  "extends": ["@pob/eslint-config", "@pob/eslint-config-node"],
   "overrides": [
     {
       "files": ["lib/**/*.test.js", "lib/__tests__/**/*.js"],

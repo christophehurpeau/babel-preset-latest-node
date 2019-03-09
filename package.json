@@ -5,24 +5,23 @@
   "keywords": ["babel-preset"],
   "author": "Christophe Hurpeau <christophe@hurpeau.com> (https://christophe.hurpeau.com)",
   "license": "ISC",
-  "repository": "git@github.com:christophehurpeau/babel-preset-latest-node.git",
+  "repository": "https://github.com:christophehurpeau/babel-preset-latest-node.git",
   "homepage": "https://github.com/christophehurpeau/babel-preset-latest-node",
   "engines": {
     "node": ">=6.5.0"
   },
   "main": "./lib/index.js",
   "scripts": {
-    "clean": "rm -Rf dist",
-    "generate:test-coverage": "rm -Rf docs/coverage/ ; NODE_ENV=production BABEL_ENV=test jest --coverage --coverageReporters=lcov --coverageDirectory=docs/coverage/",
+    "generate:test-coverage": "rm -Rf docs/coverage/ ; NODE_ENV=production BABEL_ENV=test jest --coverage --coverageReporters=pob-lcov-reporter --coverageDirectory=docs/coverage/",
     "lint": "eslint lib/",
-    "preversion": "yarn run lint && pob-repository-check-clean",
-    "release": "pob-repository-check-clean && pob-release",
+    "preversion": "yarn run lint && repository-check-dirty",
+    "release": "repository-check-dirty && pob-release",
     "test": "jest",
     "version": "pob-version"
   },
   "husky": {
     "hooks": {
-      "commit-msg": "commitlint -e $GIT_PARAMS",
+      "commit-msg": "commitlint -e $HUSKY_GIT_PARAMS",
       "post-checkout": "yarnhook",
       "post-merge": "yarnhook",
       "post-rewrite": "yarnhook",
@@ -30,6 +29,7 @@
     }
   },
   "lint-staged": {
+    "yarn.lock": ["yarn-update-lock", "git add"],
     "{package.json,.eslintrc.json}": [
       "prettier --parser json --write",
       "git add"
@@ -72,20 +72,22 @@
     "@babel/plugin-transform-modules-commonjs": "^7.1.0"
   },
   "devDependencies": {
-    "@babel/core": "7.2.2",
-    "@commitlint/cli": "7.3.2",
-    "@commitlint/config-conventional": "7.3.1",
-    "@types/jest": "23.3.10",
-    "eslint": "5.12.1",
-    "eslint-config-pob": "25.0.0",
-    "eslint-plugin-import": "2.14.0",
-    "eslint-plugin-node": "8.0.1",
+    "@babel/core": "7.2.0",
+    "@commitlint/cli": "7.5.2",
+    "@commitlint/config-conventional": "7.5.0",
+    "@pob/eslint-config": "29.0.1",
+    "@pob/eslint-config-node": "29.0.1",
+    "@types/jest": "24.0.11",
+    "eslint": "5.15.1",
     "husky": "1.3.1",
-    "jest": "23.6.0",
+    "jest": "24.3.1",
     "jest-junit-reporter": "1.1.0",
-    "lint-staged": "8.1.0",
-    "pob-release": "4.6.3",
-    "prettier": "1.16.0",
-    "yarnhook": "0.3.0"
+    "lint-staged": "8.1.5",
+    "pob-lcov-reporter": "1.0.1",
+    "pob-release": "4.9.0",
+    "prettier": "1.16.4",
+    "repository-check-dirty": "1.0.2",
+    "yarn-update-lock": "0.3.3",
+    "yarnhook": "0.4.0"
   }
 }

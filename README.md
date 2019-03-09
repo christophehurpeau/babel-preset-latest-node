@@ -10,7 +10,6 @@
   <a href="https://npmjs.org/package/babel-preset-latest-node"><img src="https://img.shields.io/npm/v/babel-preset-latest-node.svg?style=flat-square"></a>
   <a href="https://circleci.com/gh/christophehurpeau/babel-preset-latest-node"><img src="https://img.shields.io/circleci/project/christophehurpeau/babel-preset-latest-node/master.svg?style=flat-square"></a>
   <a href="https://david-dm.org/christophehurpeau/babel-preset-latest-node"><img src="https://david-dm.org/christophehurpeau/babel-preset-latest-node.svg?style=flat-square"></a>
-  <a href="https://dependencyci.com/github/christophehurpeau/babel-preset-latest-node"><img src="https://dependencyci.com/github/christophehurpeau/babel-preset-latest-node/badge?style=flat-square"></a>
 </p>
 
 # babel 7

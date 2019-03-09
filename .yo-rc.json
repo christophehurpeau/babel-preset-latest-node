@@ -10,6 +10,14 @@
       "entries": [
         "index"
       ]
+    },
+    "renovate": {
+      "enable": true
+    }
+  },
+  "babel-preset-latest-node": {
+    "type": {
+      "type": "lib"
     }
   }
 }
