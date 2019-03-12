@@ -1,3 +1,12 @@
+## [3.1.1](https://github.com/christophehurpeau/babel-preset-latest-node/compare/v3.1.0...v3.1.1) (2019-03-12)
+
+
+### Bug Fixes
+
+* make target option optional ([76fdc33](https://github.com/christophehurpeau/babel-preset-latest-node/commit/76fdc33)), closes [#60](https://github.com/christophehurpeau/babel-preset-latest-node/issues/60)
+
+
+
 # [3.1.0](https://github.com/christophehurpeau/babel-preset-latest-node/compare/v3.0.1...v3.1.0) (2019-03-09)
 
 
