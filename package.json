@@ -17,6 +17,7 @@
     "preversion": "yarn run lint && repository-check-dirty",
     "release": "repository-check-dirty && pob-release",
     "test": "jest",
+    "test:watch": "jest",
     "version": "pob-version"
   },
   "husky": {
