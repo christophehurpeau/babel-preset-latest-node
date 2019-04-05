@@ -28,6 +28,7 @@ Since v2, this package requires `@babel/core@^7.0.0`. If you use babel 6, you ca
 - `es2016` - Enable es2016 features (Enabled by default)
 - `es2017` - Enable es2017 features (Enabled by default)
 - `es2018` - Enable es2018 features (Enabled by default)
+- `es2019` - Enable es2019 features (Enabled by default)
 - `shippedProposals` - Enable features in stages but already available in recent node version (Enabled by default)
 
 ## [Compatibility Table](http://node.green/)
@@ -46,8 +47,10 @@ Since v2, this package requires `@babel/core@^7.0.0`. If you use babel 6, you ca
 | [proposal-object-rest-spread](https://www.npmjs.com/package/@babel/plugin-proposal-object-rest-spread) | no | no | flag | yes | yes | yes | yes |
 | [proposal-unicode-property-regex](https://www.npmjs.com/package/@babel/plugin-proposal-unicode-property-regex) | no | no | no | flag | yes | yes | yes |
 | [proposal-async-generator-functions](https://www.npmjs.com/package/@babel/plugin-proposal-async-generator-functions) | no | no | no | no | yes | yes | yes |
-| <h3>Shipped Proposals</h3> ||||||
+| <h3>ES2019</h3> ||||||
 | [syntax-optional-catch-binding](https://www.npmjs.com/package/@babel/plugin-syntax-optional-catch-binding) | no | no | no | no | flag | yes | yes |
+| <h3>Shipped Proposals</h3> ||||||
+| [syntax-json-strings](https://www.npmjs.com/package/@babel/plugin-syntax-json-strings) | no | no | no | no | yes | yes | yes |
 
 ## Install
 
