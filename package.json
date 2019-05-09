@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-latest-node",
-  "version": "3.1.1",
+  "version": "3.2.0",
   "description": "babel preset latest for node 11 (Current), node 10 (Active LTS) node 8 (Maintenance LTS April 2019) or node 6 (EOL April 2019)",
   "keywords": ["babel-preset"],
   "author": "Christophe Hurpeau <christophe@hurpeau.com> (https://christophe.hurpeau.com)",

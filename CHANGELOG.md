@@ -1,3 +1,14 @@
+# [3.2.0](https://github.com/christophehurpeau/babel-preset-latest-node/compare/v3.1.1...v3.2.0) (2019-05-09)
+
+
+### Features
+
+* add es2019 option and plugin-proposal-json-strings in shippedProposals ([dfc2534](https://github.com/christophehurpeau/babel-preset-latest-node/commit/dfc2534))
+* support node 12 ([38037b9](https://github.com/christophehurpeau/babel-preset-latest-node/commit/38037b9))
+* update dependencies ([b0d6da8](https://github.com/christophehurpeau/babel-preset-latest-node/commit/b0d6da8))
+
+
+
 ## [3.1.1](https://github.com/christophehurpeau/babel-preset-latest-node/compare/v3.1.0...v3.1.1) (2019-03-12)
 
 
