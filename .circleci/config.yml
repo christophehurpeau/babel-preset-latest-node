@@ -3,7 +3,7 @@ version: 2
 jobs:
   test-node8:
     docker:
-      - image: circleci/node:8.15
+      - image: circleci/node:8.16
     steps:
       - checkout
       - restore_cache:
@@ -27,20 +27,20 @@ jobs:
           name: Check nothing was forget before commit
           command: yarn run repository-check-dirty
 
-  test-node11:
+  test-node12:
     docker:
-      - image: circleci/node:11.13
+      - image: circleci/node:12.6
     steps:
       - checkout
       - restore_cache:
           keys:
-            - dependencies-node11-{{ arch }}-{{ checksum "yarn.lock" }}
-            - dependencies-node11-{{ arch }}
+            - dependencies-node12-{{ arch }}-{{ checksum "yarn.lock" }}
+            - dependencies-node12-{{ arch }}
       - run:
           name: Install dependencies
           command: yarn --prefer-offline --pure-lockfile
       - save_cache:
-          key: dependencies-node11-{{ arch }}-{{ checksum "yarn.lock" }}
+          key: dependencies-node12-{{ arch }}-{{ checksum "yarn.lock" }}
           paths:
             - node_modules
       - run:
@@ -49,7 +49,7 @@ jobs:
 
   test-node10:
     docker:
-      - image: circleci/node:10.15
+      - image: circleci/node:10.16
     steps:
       - checkout
       - restore_cache:
@@ -74,4 +74,4 @@ workflows:
     jobs:
       - test-node8
       - test-node10
-      - test-node11
+      - test-node12

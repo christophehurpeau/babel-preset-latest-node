@@ -9,7 +9,8 @@
       },
       "entries": [
         "index"
-      ]
+      ],
+      "withReact": false
     },
     "renovate": {
       "enable": true
