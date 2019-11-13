@@ -86,7 +86,7 @@
     "husky": "3.0.9",
     "jest": "24.8.0",
     "jest-junit-reporter": "1.1.0",
-    "lint-staged": "9.2.0",
+    "lint-staged": "9.4.3",
     "pob-lcov-reporter": "1.2.1",
     "pob-release": "4.13.2",
     "prettier": "1.18.2",
