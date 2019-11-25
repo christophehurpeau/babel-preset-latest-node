@@ -6208,10 +6208,10 @@ yarn-update-lock@1.0.0:
   dependencies:
     yarn-deduplicate "^1.1.1"
 
-yarnhook@0.4.1:
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/yarnhook/-/yarnhook-0.4.1.tgz#e3709661ffe6a3d07257b8cd68015c3672d673b5"
-  integrity sha512-u9Mw8h6/FSuGfR9XBO78FlNYer0OUiy6YvxLbGhb567NMkZPVUiiJmiu92E4uRnBqZvVTYKquoAxvm3ZCXUZPA==
+yarnhook@0.4.3:
+  version "0.4.3"
+  resolved "https://registry.yarnpkg.com/yarnhook/-/yarnhook-0.4.3.tgz#d80443f86596f72cf58ddf16f69d9b8f9584f056"
+  integrity sha512-GIAWEJ/iBv5ywDGmEJp1qHPydof7pysgAyU8UYM5Z0Izm2mJAbJPbT4PIXFCh2e2ia1TYSUy+uwbD80mtBuK8w==
   dependencies:
     execa "^0.8.0"
     find-parent-dir "^0.3.0"

@@ -92,6 +92,6 @@
     "prettier": "1.18.2",
     "repository-check-dirty": "1.0.2",
     "yarn-update-lock": "1.0.0",
-    "yarnhook": "0.4.1"
+    "yarnhook": "0.4.3"
   }
 }
