@@ -76,8 +76,8 @@
   },
   "devDependencies": {
     "@babel/core": "7.4.3",
-    "@commitlint/cli": "8.0.0",
-    "@commitlint/config-conventional": "8.0.0",
+    "@commitlint/cli": "8.2.0",
+    "@commitlint/config-conventional": "8.2.0",
     "@pob/eslint-config": "31.0.0",
     "@pob/eslint-config-node": "31.0.0",
     "@pob/version": "4.32.1",
