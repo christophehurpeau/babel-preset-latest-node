@@ -22,7 +22,7 @@ Since v2, this package requires `@babel/core@^7.0.0`. If you use babel 6, you ca
 
 ## Options
 
-- `target`: `6`, `6.5`, `8`, `8.3`, `10`, `11` or `'current'` (`process.versions.node`)
+- `target`: `6`, `6.5`, `8`, `8.3`, `10`, `11`, `12`, `13` or `'current'` (`process.versions.node`)
 - `loose`: Enable “loose” transformations for any plugins in this preset that allow them (Disabled by default).
 - `modules` - Enable transformation of ES6 module syntax to another module type (Enabled by default to "commonjs"). Can be false to not transform modules, or "commonjs"
 - `es2016` - Enable es2016 features (Enabled by default)
@@ -34,23 +34,23 @@ Since v2, this package requires `@babel/core@^7.0.0`. If you use babel 6, you ca
 ## [Compatibility Table](http://node.green/)
 
 
-| Feature | Node 6 | Node 6.5 | Node 8 | Node 8.3 | Node 10 | Node 10.13 | Node 11 |
-| ------- | ------ | -------- | ------ | -------- | ------- | ---------- | ------- |
-| <h3>ES2015</h3> ||||||
-| [transform-modules-commonjs](https://www.npmjs.com/package/@babel/plugin-transform-modules-commonjs) | no | no | no | no | flag | flag | flag |
-| [transform-function-name](https://www.npmjs.com/package/@babel/plugin-transform-function-name) | flag | yes | yes | yes | yes | yes | yes |
-| <h3>ES2016</h3> ||||||
-| [transform-exponentiation-operator](https://www.npmjs.com/package/@babel/plugin-transform-exponentiation-operator) | no | flag | yes | yes | yes | yes | yes |
-| <h3>ES2017</h3> ||||||
-| [transform-async-to-generator](https://www.npmjs.com/package/@babel/transform-async-to-generator) | no | no | yes | yes | yes | yes | yes |
-| <h3>ES2018</h3> ||||||
-| [proposal-object-rest-spread](https://www.npmjs.com/package/@babel/plugin-proposal-object-rest-spread) | no | no | flag | yes | yes | yes | yes |
-| [proposal-unicode-property-regex](https://www.npmjs.com/package/@babel/plugin-proposal-unicode-property-regex) | no | no | no | flag | yes | yes | yes |
-| [proposal-async-generator-functions](https://www.npmjs.com/package/@babel/plugin-proposal-async-generator-functions) | no | no | no | no | yes | yes | yes |
-| <h3>ES2019</h3> ||||||
-| [syntax-optional-catch-binding](https://www.npmjs.com/package/@babel/plugin-syntax-optional-catch-binding) | no | no | no | no | flag | yes | yes |
-| <h3>Shipped Proposals</h3> ||||||
-| [syntax-json-strings](https://www.npmjs.com/package/@babel/plugin-syntax-json-strings) | no | no | no | no | yes | yes | yes |
+| Feature                                                                                                              | Node 6 | Node 6.5 | Node 8 | Node 8.3 | Node 10 | Node 10.13 | Node 11/12/13 |
+| -------------------------------------------------------------------------------------------------------------------- | ------ | -------- | ------ | -------- | ------- | ---------- | ------------- |
+| <h3>ES2015</h3>                                                                                                      |        |          |        |          |         |
+| [transform-modules-commonjs](https://www.npmjs.com/package/@babel/plugin-transform-modules-commonjs)                 | no     | no       | no     | no       | flag    | flag       | flag          |
+| [transform-function-name](https://www.npmjs.com/package/@babel/plugin-transform-function-name)                       | flag   | yes      | yes    | yes      | yes     | yes        | yes           |
+| <h3>ES2016</h3>                                                                                                      |        |          |        |          |         |
+| [transform-exponentiation-operator](https://www.npmjs.com/package/@babel/plugin-transform-exponentiation-operator)   | no     | flag     | yes    | yes      | yes     | yes        | yes           |
+| <h3>ES2017</h3>                                                                                                      |        |          |        |          |         |
+| [transform-async-to-generator](https://www.npmjs.com/package/@babel/transform-async-to-generator)                    | no     | no       | yes    | yes      | yes     | yes        | yes           |
+| <h3>ES2018</h3>                                                                                                      |        |          |        |          |         |
+| [proposal-object-rest-spread](https://www.npmjs.com/package/@babel/plugin-proposal-object-rest-spread)               | no     | no       | flag   | yes      | yes     | yes        | yes           |
+| [proposal-unicode-property-regex](https://www.npmjs.com/package/@babel/plugin-proposal-unicode-property-regex)       | no     | no       | no     | flag     | yes     | yes        | yes           |
+| [proposal-async-generator-functions](https://www.npmjs.com/package/@babel/plugin-proposal-async-generator-functions) | no     | no       | no     | no       | yes     | yes        | yes           |
+| <h3>ES2019</h3>                                                                                                      |        |          |        |          |         |
+| [syntax-optional-catch-binding](https://www.npmjs.com/package/@babel/plugin-syntax-optional-catch-binding)           | no     | no       | no     | no       | flag    | yes        | yes           |
+| <h3>Shipped Proposals</h3>                                                                                           |        |          |        |          |         |
+| [syntax-json-strings](https://www.npmjs.com/package/@babel/plugin-syntax-json-strings)                               | no     | no       | no     | no       | yes     | yes        | yes           |
 
 ## Install
 
