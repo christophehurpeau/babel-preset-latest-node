@@ -1,3 +1,20 @@
+# [4.0.0](https://github.com/christophehurpeau/babel-preset-latest-node/compare/v3.2.1...v4.0.0) (2019-12-13)
+
+
+### Features
+
+* add nullish coalescing operator and optional chaining ([f9e89f1](https://github.com/christophehurpeau/babel-preset-latest-node/commit/f9e89f1))
+* add support for node 12 ([212b1b9](https://github.com/christophehurpeau/babel-preset-latest-node/commit/212b1b9))
+* drop node 6 and node 8 ([5974020](https://github.com/christophehurpeau/babel-preset-latest-node/commit/5974020))
+* update dependencies ([a50d541](https://github.com/christophehurpeau/babel-preset-latest-node/commit/a50d541))
+
+
+### BREAKING CHANGES
+
+* node 6 and node 8 no longer supported, removed options es2016, es2017,  es2018 and esnext (replaced by shippedProposals)
+
+
+
 ## [3.2.1](https://github.com/christophehurpeau/babel-preset-latest-node/compare/v3.2.0...v3.2.1) (2019-05-09)
 
 
