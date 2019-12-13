@@ -31,14 +31,16 @@ Since v2, this package requires `@babel/core@^7.0.0`. If you use babel 6, you ca
 ## [Compatibility Table](http://node.green/)
 
 
-| Feature                                                                                                    | Node 10 | Node 10.13 | Node 11/12/13 |
-| ---------------------------------------------------------------------------------------------------------- | ------- | ---------- | ------------- |
-| <h3>ES2015</h3>                                                                                            |         |            |               |
-| [transform-modules-commonjs](https://www.npmjs.com/package/@babel/plugin-transform-modules-commonjs)       | flag    | flag       | flag          |
-| <h3>ES2019</h3>                                                                                            |         |            |               |
-| [syntax-optional-catch-binding](https://www.npmjs.com/package/@babel/plugin-syntax-optional-catch-binding) | flag    | yes        | yes           |
-| <h3>Shipped Proposals</h3>                                                                                 |         |            |               |
-| [syntax-json-strings](https://www.npmjs.com/package/@babel/plugin-syntax-json-strings)                     | yes     | yes        | yes           |
+| Feature                                                                                                         | Node 10 | Node 10.13 | Node 11/12/13 | Node 13.3                           |
+| --------------------------------------------------------------------------------------------------------------- | ------- | ---------- | ------------- | ----------------------------------- |
+| <h3>ES2015</h3>                                                                                                 |         |            |               |                                     |
+| [transform-modules-commonjs](https://www.npmjs.com/package/@babel/plugin-transform-modules-commonjs)            | flag    | flag       | flag          | yes with .mjs, use `modules: false` |
+| <h3>ES2019</h3>                                                                                                 |         |            |               |                                     |
+| [syntax-optional-catch-binding](https://www.npmjs.com/package/@babel/plugin-syntax-optional-catch-binding)      | flag    | yes        | yes           | yes                                 |
+| <h3>Shipped Proposals</h3>                                                                                      |         |            |               |                                     |
+| [syntax-json-strings](https://www.npmjs.com/package/@babel/plugin-syntax-json-strings)                          | yes     | yes        | yes           | yes                                 |
+| [nullish-coalescing-operator](https://www.npmjs.com/package/@babel/plugin-proposal-nullish-coalescing-operator) | no      | no         | no            | flag                                |
+| [optional-chaining](https://www.npmjs.com/package/@babel/plugin-proposal-optional-chaining)                     | no      | no         | no            | flag                                |
 
 ## Install
 
