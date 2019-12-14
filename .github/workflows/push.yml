@@ -38,5 +38,7 @@ jobs:
       env:
         CI: true
 
+
     - name: Check nothing was forget before commit
+      if: startsWith(matrix.node-version, '12.')
       run: yarn run repository-check-dirty

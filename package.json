@@ -8,35 +8,17 @@
   "repository": "https://github.com:christophehurpeau/babel-preset-latest-node.git",
   "homepage": "https://github.com/christophehurpeau/babel-preset-latest-node",
   "engines": {
-    "node": ">=10.0.0"
+    "node": ">=10.13.0"
   },
   "main": "./lib/index.js",
   "scripts": {
     "generate:test-coverage": "rm -Rf docs/coverage/ ; NODE_ENV=production BABEL_ENV=test jest --coverage --coverageReporters=pob-lcov-reporter --coverageDirectory=docs/coverage/",
-    "lint": "eslint --quiet lib/",
+    "lint": "eslint --quiet lib",
     "preversion": "yarn run lint && repository-check-dirty",
     "release": "repository-check-dirty && pob-release",
     "test": "jest",
     "test:watch": "jest",
     "version": "pob-version"
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -e $HUSKY_GIT_PARAMS",
-      "post-checkout": "yarnhook",
-      "post-merge": "yarnhook",
-      "post-rewrite": "yarnhook",
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "yarn.lock": ["yarn-update-lock", "git add"],
-    "{package.json,.eslintrc.json}": [
-      "prettier --parser json --write",
-      "git add"
-    ],
-    "lib/**/*.json": ["prettier --parser json --write", "git add"],
-    "lib/**/*.js": ["eslint --fix --quiet", "git add"]
   },
   "prettier": {
     "trailingComma": "es5",
@@ -55,6 +37,7 @@
     "collectCoverageFrom": ["lib/**/*.js"],
     "moduleFileExtensions": ["js"]
   },
+  "pob": {},
   "peerDependencies": {
     "@babel/core": "^7.0.0"
   },
@@ -69,22 +52,18 @@
   },
   "devDependencies": {
     "@babel/core": "7.7.5",
-    "@commitlint/cli": "8.2.0",
-    "@commitlint/config-conventional": "8.2.0",
     "@pob/eslint-config": "33.0.8",
     "@pob/eslint-config-node": "33.0.0",
-    "@pob/version": "4.33.4",
+    "@pob/repo-config": "1.0.3",
+    "@pob/version": "5.0.0",
     "@types/jest": "24.0.23",
     "eslint": "6.7.2",
     "husky": "3.1.0",
     "jest": "24.9.0",
     "jest-junit-reporter": "1.1.0",
-    "lint-staged": "9.5.0",
-    "pob-lcov-reporter": "1.2.3",
-    "pob-release": "4.15.2",
+    "pob-lcov-reporter": "2.0.0",
+    "pob-release": "5.0.0",
     "prettier": "1.19.1",
-    "repository-check-dirty": "1.0.2",
-    "yarn-update-lock": "1.0.0",
-    "yarnhook": "0.4.3"
+    "repository-check-dirty": "1.0.3"
   }
 }

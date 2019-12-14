@@ -1,16 +1,11 @@
 {
   "pob": {
     "pob-config": {
-      "envs": [],
       "documentation": false,
       "testing": {
         "circleci": true,
         "codecov": false
-      },
-      "entries": [
-        "index"
-      ],
-      "withReact": false
+      }
     },
     "renovate": {
       "enable": true

@@ -3,7 +3,7 @@
 </h3>
 
 <p align="center">
-  babel preset latest for node 12 (Current), node 10 (Active LTS) node 8 (Maintenance LTS April 2019)
+  babel preset latest for node 13 (Current), node 12 (Active LTS) node 10 (Maintenance LTS)
 </p>
 
 <p align="center">
