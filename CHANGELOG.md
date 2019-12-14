@@ -1,12 +1,21 @@
+## [4.0.1](https://github.com/christophehurpeau/babel-preset-latest-node/compare/v4.0.0...v4.0.1) (2019-12-14)
+
+
+### Bug Fixes
+
+* require default from latest plugins ([30708ae](https://github.com/christophehurpeau/babel-preset-latest-node/commit/30708aea524cdd031857e767bd7ec3fa076cb619))
+
+
+
 # [4.0.0](https://github.com/christophehurpeau/babel-preset-latest-node/compare/v3.2.1...v4.0.0) (2019-12-13)
 
 
 ### Features
 
-* add nullish coalescing operator and optional chaining ([f9e89f1](https://github.com/christophehurpeau/babel-preset-latest-node/commit/f9e89f1))
-* add support for node 12 ([212b1b9](https://github.com/christophehurpeau/babel-preset-latest-node/commit/212b1b9))
-* drop node 6 and node 8 ([5974020](https://github.com/christophehurpeau/babel-preset-latest-node/commit/5974020))
-* update dependencies ([a50d541](https://github.com/christophehurpeau/babel-preset-latest-node/commit/a50d541))
+* add nullish coalescing operator and optional chaining ([f9e89f1](https://github.com/christophehurpeau/babel-preset-latest-node/commit/f9e89f1a1a1a55609c567fae0765ffcdad648471))
+* add support for node 12 ([212b1b9](https://github.com/christophehurpeau/babel-preset-latest-node/commit/212b1b9f7a6f11c00df9d2035e80c914d3077964))
+* drop node 6 and node 8 ([5974020](https://github.com/christophehurpeau/babel-preset-latest-node/commit/5974020f29ff18765904cffe5a26b41c8f15600f))
+* update dependencies ([a50d541](https://github.com/christophehurpeau/babel-preset-latest-node/commit/a50d5410cc37d375fedd649835b4185bf4ead075))
 
 
 ### BREAKING CHANGES
@@ -20,7 +29,7 @@
 
 ### Bug Fixes
 
-* check option es2019 ([b959ffd](https://github.com/christophehurpeau/babel-preset-latest-node/commit/b959ffd))
+* check option es2019 ([b959ffd](https://github.com/christophehurpeau/babel-preset-latest-node/commit/b959ffd26ad1545a228d92468751eb6765ee3831))
 
 
 
@@ -29,9 +38,9 @@
 
 ### Features
 
-* add es2019 option and plugin-proposal-json-strings in shippedProposals ([dfc2534](https://github.com/christophehurpeau/babel-preset-latest-node/commit/dfc2534))
-* support node 12 ([38037b9](https://github.com/christophehurpeau/babel-preset-latest-node/commit/38037b9))
-* update dependencies ([b0d6da8](https://github.com/christophehurpeau/babel-preset-latest-node/commit/b0d6da8))
+* add es2019 option and plugin-proposal-json-strings in shippedProposals ([dfc2534](https://github.com/christophehurpeau/babel-preset-latest-node/commit/dfc25344d61bbe565c52e5f2faa78854514bfea0))
+* support node 12 ([38037b9](https://github.com/christophehurpeau/babel-preset-latest-node/commit/38037b91d81399f816fbe88d6f977ea3612697ea))
+* update dependencies ([b0d6da8](https://github.com/christophehurpeau/babel-preset-latest-node/commit/b0d6da8c4015e66f45baee2c13436c3e7aac7024))
 
 
 
@@ -40,7 +49,7 @@
 
 ### Bug Fixes
 
-* make target option optional ([76fdc33](https://github.com/christophehurpeau/babel-preset-latest-node/commit/76fdc33)), closes [#60](https://github.com/christophehurpeau/babel-preset-latest-node/issues/60)
+* make target option optional ([76fdc33](https://github.com/christophehurpeau/babel-preset-latest-node/commit/76fdc3333d5853db83e386a67b060dd59eb10885)), closes [#60](https://github.com/christophehurpeau/babel-preset-latest-node/issues/60)
 
 
 
@@ -49,7 +58,7 @@
 
 ### Features
 
-* update deps ([0baad94](https://github.com/christophehurpeau/babel-preset-latest-node/commit/0baad94))
+* update deps ([0baad94](https://github.com/christophehurpeau/babel-preset-latest-node/commit/0baad9473e02de7adda524fbf5113fe760a4f9b2))
 
 
 
@@ -62,8 +71,8 @@
 
 ### Features
 
-* drop node 7 ([8b504ec](https://github.com/christophehurpeau/babel-preset-latest-node/commit/8b504ec))
-* drop node 9 ([8a4a729](https://github.com/christophehurpeau/babel-preset-latest-node/commit/8a4a729))
+* drop node 7 ([8b504ec](https://github.com/christophehurpeau/babel-preset-latest-node/commit/8b504ec3a1e0d091947eda0860afdaf683d9da5b))
+* drop node 9 ([8a4a729](https://github.com/christophehurpeau/babel-preset-latest-node/commit/8a4a7292f972039271f9430cce53c10f017785fb))
 
 
 ### BREAKING CHANGES
@@ -78,8 +87,8 @@
 
 ### Features
 
-* add node 10.13, 11 support and plugin-proposal-optional-catch-binding ([2fb4dc9](https://github.com/christophehurpeau/babel-preset-latest-node/commit/2fb4dc9))
-* update plugins deps ([e349573](https://github.com/christophehurpeau/babel-preset-latest-node/commit/e349573))
+* add node 10.13, 11 support and plugin-proposal-optional-catch-binding ([2fb4dc9](https://github.com/christophehurpeau/babel-preset-latest-node/commit/2fb4dc9da312f58d94a75b9e314203981258ca41))
+* update plugins deps ([e349573](https://github.com/christophehurpeau/babel-preset-latest-node/commit/e349573d97c020b49e7b549999672370a5bfc825))
 
 
 
@@ -96,7 +105,7 @@
 
 ### Features
 
-* babel 7 ([c175ad1](https://github.com/christophehurpeau/babel-preset-latest-node/commit/c175ad1))
+* babel 7 ([c175ad1](https://github.com/christophehurpeau/babel-preset-latest-node/commit/c175ad1f6370f75aa8512dd1922d35b10365dd81))
 
 
 
@@ -105,7 +114,7 @@
 
 ### chore
 
-* update dependencies ([05613c1](https://github.com/christophehurpeau/babel-preset-latest-node/commit/05613c1))
+* update dependencies ([05613c1](https://github.com/christophehurpeau/babel-preset-latest-node/commit/05613c1ce027946889d076adb05e6f93bc726b12))
 
 
 ### BREAKING CHANGES
@@ -119,7 +128,7 @@
 
 ### Bug Fixes
 
-* async iterators is in the es2018 spec ([1ecaaf8](https://github.com/christophehurpeau/babel-preset-latest-node/commit/1ecaaf8))
+* async iterators is in the es2018 spec ([1ecaaf8](https://github.com/christophehurpeau/babel-preset-latest-node/commit/1ecaaf8c9c3f2e0a9a4ce0ca63b757d59a79f7a8))
 
 
 
@@ -128,7 +137,7 @@
 
 ### Features
 
-* babel 7 and node 10 ([0857d96](https://github.com/christophehurpeau/babel-preset-latest-node/commit/0857d96))
+* babel 7 and node 10 ([0857d96](https://github.com/christophehurpeau/babel-preset-latest-node/commit/0857d966728eabe1264cd35b53be0cddbc8a9acc))
 
 
 
@@ -137,7 +146,7 @@
 
 ### Features
 
-* add node 9 and rename esnext to shippedProposals ([5754ecd](https://github.com/christophehurpeau/babel-preset-latest-node/commit/5754ecd))
+* add node 9 and rename esnext to shippedProposals ([5754ecd](https://github.com/christophehurpeau/babel-preset-latest-node/commit/5754ecd1f48599b829b5ab44514d92bd47848767))
 
 
 
@@ -146,7 +155,7 @@
 
 ### Features
 
-* option esnext and node 8.3 ([f5a0d17](https://github.com/christophehurpeau/babel-preset-latest-node/commit/f5a0d17))
+* option esnext and node 8.3 ([f5a0d17](https://github.com/christophehurpeau/babel-preset-latest-node/commit/f5a0d17db208d06244544bfe89b2f79b16602695))
 
 
 
@@ -159,8 +168,8 @@
 
 ### Features
 
-* support node 8, versions as string ([a04928c](https://github.com/christophehurpeau/babel-preset-latest-node/commit/a04928c))
-* update dependencies ([9915fd2](https://github.com/christophehurpeau/babel-preset-latest-node/commit/9915fd2))
+* support node 8, versions as string ([a04928c](https://github.com/christophehurpeau/babel-preset-latest-node/commit/a04928c5092c36628ad0525419f920804ffb3cf6))
+* update dependencies ([9915fd2](https://github.com/christophehurpeau/babel-preset-latest-node/commit/9915fd2ea4b90ac7859b3fc6ee36dc75b5e2c7b5))
 
 
 
@@ -169,7 +178,7 @@
 
 ### Bug Fixes
 
-* invalid indexOf ([a798238](https://github.com/christophehurpeau/babel-preset-latest-node/commit/a798238))
+* invalid indexOf ([a798238](https://github.com/christophehurpeau/babel-preset-latest-node/commit/a79823805c41225f37eb161dacaac1d75c5b8242))
 
 
 
@@ -178,7 +187,7 @@
 
 ### Bug Fixes
 
-* support node 4 ([e3642b7](https://github.com/christophehurpeau/babel-preset-latest-node/commit/e3642b7))
+* support node 4 ([e3642b7](https://github.com/christophehurpeau/babel-preset-latest-node/commit/e3642b71e0d3a98f15689fabe67f26b48a3ab53e))
 
 
 
@@ -187,16 +196,16 @@
 
 ### Features
 
-* update dependencies ([364d306](https://github.com/christophehurpeau/babel-preset-latest-node/commit/364d306))
+* update dependencies ([364d306](https://github.com/christophehurpeau/babel-preset-latest-node/commit/364d306c3701c8ed9022b32cecc76f818c4e8075))
 
 
 
-# [0.1.0](https://github.com/christophehurpeau/babel-preset-latest-node/compare/7fdf82c...v0.1.0) (2017-02-27)
+# [0.1.0](https://github.com/christophehurpeau/babel-preset-latest-node/compare/7fdf82c61b9799b178faf1b1776ef3317704d517...v0.1.0) (2017-02-27)
 
 
 ### Features
 
-* first commit ([7fdf82c](https://github.com/christophehurpeau/babel-preset-latest-node/commit/7fdf82c))
+* first commit ([7fdf82c](https://github.com/christophehurpeau/babel-preset-latest-node/commit/7fdf82c61b9799b178faf1b1776ef3317704d517))
 
 
 
