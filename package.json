@@ -2,7 +2,9 @@
   "name": "babel-preset-latest-node",
   "version": "4.0.1",
   "description": "babel preset latest for node 13 (Current), node 12 (Active LTS) node 10 (Maintenance LTS)",
-  "keywords": ["babel-preset"],
+  "keywords": [
+    "babel-preset"
+  ],
   "author": "Christophe Hurpeau <christophe@hurpeau.com> (https://christophe.hurpeau.com)",
   "license": "ISC",
   "repository": "https://github.com:christophehurpeau/babel-preset-latest-node.git",
@@ -26,7 +28,9 @@
     "arrowParens": "always"
   },
   "commitlint": {
-    "extends": ["@commitlint/config-conventional"]
+    "extends": [
+      "@pob/commitlint-config"
+    ]
   },
   "jest": {
     "cacheDirectory": "./node_modules/.cache/jest",
@@ -34,8 +38,12 @@
       "<rootDir>/lib/**/__tests__/**/*.js",
       "<rootDir>/lib/**/*.test.js"
     ],
-    "collectCoverageFrom": ["lib/**/*.js"],
-    "moduleFileExtensions": ["js"]
+    "collectCoverageFrom": [
+      "lib/**/*.js"
+    ],
+    "moduleFileExtensions": [
+      "js"
+    ]
   },
   "pob": {},
   "peerDependencies": {
@@ -52,18 +60,23 @@
   },
   "devDependencies": {
     "@babel/core": "7.7.5",
-    "@pob/eslint-config": "33.0.8",
-    "@pob/eslint-config-node": "33.0.0",
-    "@pob/repo-config": "1.2.0",
-    "@pob/version": "5.0.0",
-    "@types/jest": "24.0.23",
-    "eslint": "6.7.2",
-    "husky": "3.1.0",
-    "jest": "24.9.0",
+    "@pob/commitlint-config": "1.1.1",
+    "@pob/eslint-config": "37.0.0",
+    "@pob/eslint-config-node": "37.0.0",
+    "@pob/root": "1.4.0",
+    "@types/jest": "25.2.0",
+    "@yarnpkg/pnpify": "2.0.0-rc.20",
+    "eslint": "6.8.0",
+    "eslint-import-resolver-node": "0.3.3",
+    "eslint-plugin-import": "2.20.2",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-prettier": "3.1.2",
+    "eslint-plugin-unicorn": "18.0.1",
+    "husky": "4.2.3",
+    "jest": "25.2.4",
     "jest-junit-reporter": "1.1.0",
-    "pob-lcov-reporter": "2.0.0",
-    "pob-release": "5.0.0",
-    "prettier": "1.19.1",
-    "repository-check-dirty": "1.0.3"
+    "pob-lcov-reporter": "2.2.0",
+    "pob-release": "5.5.4",
+    "prettier": "2.0.2"
   }
 }

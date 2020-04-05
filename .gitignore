@@ -14,8 +14,6 @@ yarn-error.log*
 *.sublime-project
 *.sublime-workspace
 
-# Typescript
-tsbuildinfo
 
 #*
 *$

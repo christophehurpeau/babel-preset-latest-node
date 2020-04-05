@@ -12,8 +12,9 @@
     }
   },
   "babel-preset-latest-node": {
-    "type": {
-      "type": "lib"
+    "project": {
+      "type": "lib",
+      "yarn2": true
     }
   }
 }

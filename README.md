@@ -30,7 +30,6 @@ Since v2, this package requires `@babel/core@^7.0.0`. If you use babel 6, you ca
 
 ## [Compatibility Table](http://node.green/)
 
-
 | Feature                                                                                                         | Node 10 | Node 10.13 | Node 11/12/13 | Node 13.3                           |
 | --------------------------------------------------------------------------------------------------------------- | ------- | ---------- | ------------- | ----------------------------------- |
 | <h3>ES2015</h3>                                                                                                 |         |            |               |                                     |
@@ -76,13 +75,13 @@ babel script.js --presets latest-node
 ### Via Node API
 
 ```javascript
-require("babel-core").transform("code", {
-  presets: [require('babel-preset-latest-node')]
+require('babel-core').transform('code', {
+  presets: [require('babel-preset-latest-node')],
 });
 ```
 
 ```javascript
-require("babel-core").transform("code", {
-  presets: [[require('babel-preset-latest-node'), { target: 'current' }]]
+require('babel-core').transform('code', {
+  presets: [[require('babel-preset-latest-node'), { target: 'current' }]],
 });
 ```
