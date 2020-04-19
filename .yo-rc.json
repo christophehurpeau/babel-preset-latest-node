@@ -9,12 +9,11 @@
     },
     "renovate": {
       "enable": true
-    }
-  },
-  "babel-preset-latest-node": {
+    },
     "project": {
       "type": "lib",
       "yarn2": true
     }
-  }
+  },
+  "babel-preset-latest-node": {}
 }
