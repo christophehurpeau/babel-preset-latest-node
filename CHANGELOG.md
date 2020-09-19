@@ -1,3 +1,20 @@
+# Changelog
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+## [5.0.0](https://github.com/christophehurpeau/babel-preset-latest-node/compare/v4.1.0...v5.0.0) (2020-09-19)
+
+
+### ⚠ BREAKING CHANGES
+
+* drop target 11 and 13
+* requires latest @babel/core
+
+### Features
+
+* add node 14, es2020 and numeric-separator for shipped proposals ([a6437f3](https://github.com/christophehurpeau/babel-preset-latest-node/commit/a6437f354cb22162f4b861249f224c63dbee7ccb))
+* drop target 11 and 13 ([5adddfd](https://github.com/christophehurpeau/babel-preset-latest-node/commit/5adddfdbc464169d7acbea8afb93488961acf0f4))
+
 ## [4.0.1](https://github.com/christophehurpeau/babel-preset-latest-node/compare/v4.0.0...v4.0.1) (2019-12-14)
 
 
@@ -206,6 +223,3 @@
 ### Features
 
 * first commit ([7fdf82c](https://github.com/christophehurpeau/babel-preset-latest-node/commit/7fdf82c61b9799b178faf1b1776ef3317704d517))
-
-
-
