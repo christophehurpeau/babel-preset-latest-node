@@ -76,6 +76,6 @@
     "pob-lcov-reporter": "2.4.0",
     "prettier": "2.1.2",
     "standard-version": "9.0.0",
-    "yarn-berry-deduplicate": "^2.0.0"
+    "yarn-berry-deduplicate": "2.0.0"
   }
 }
