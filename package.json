@@ -15,7 +15,7 @@
   "main": "./lib/index.js",
   "scripts": {
     "generate:test-coverage": "rm -Rf docs/coverage/ ; NODE_ENV=production BABEL_ENV=test jest --coverage --coverageReporters=pob-lcov-reporter --coverageDirectory=docs/coverage/",
-    "lint": "eslint --quiet *.js lib",
+    "lint": "eslint --report-unused-disable-directives --quiet *.js lib",
     "preversion": "yarn run lint && repository-check-dirty",
     "release": "repository-check-dirty && standard-version -a -m 'chore(release): %s [skip ci]' && git push --follow-tags origin master && npm publish",
     "test": "jest",
