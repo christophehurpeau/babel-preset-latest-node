@@ -35,4 +35,4 @@ jobs:
 
       - name: Check nothing was forgotten before commit
         if: startsWith(matrix.node-version, '12.')
-        run: npm run repository-check-dirty
+        run: npx repository-check-dirty
