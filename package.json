@@ -63,7 +63,7 @@
     "@pob/commitlint-config": "1.1.2",
     "@pob/eslint-config": "40.0.0",
     "@pob/eslint-config-node": "40.0.0",
-    "@pob/root": "2.3.0",
+    "@pob/root": "2.4.3",
     "@types/jest": "26.0.14",
     "eslint": "7.9.0",
     "eslint-import-resolver-node": "0.3.4",
