@@ -18,30 +18,21 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      - name: Cache dependencies
-        uses: actions/cache@v1
-        with:
-          path: |
-            .yarn/unplugged
-            .yarn/build-state.yml
-            .yarn/install-state.gz
-          key: v2-dependencies--${{ matrix.node-version }}-${{ runner.OS }}-${{ hashFiles('yarn.lock') }}
-          restore-keys: |
-            v2-dependencies--${{ matrix.node-version }}-${{ runner.OS }}-
-            v2-dependencies--${{ matrix.node-version }}-
+      - name: Install Latest Npm
+        run: npm install -g npm@next-7
 
-      - name: Check Dependencies
-        run: yarn install --immutable
+      - name: Install Dependencies
+        run: npm ci
 
       - name: Lint
-        run: yarn run lint
+        run: npm run lint
         if: startsWith(matrix.node-version, '12.')
 
       - name: Test
-        run: yarn run test
+        run: npm run test
         env:
           CI: true
 
       - name: Check nothing was forgotten before commit
         if: startsWith(matrix.node-version, '12.')
-        run: yarn run repository-check-dirty
+        run: npm run repository-check-dirty
