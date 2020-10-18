@@ -10,7 +10,8 @@
   "repository": "https://github.com:christophehurpeau/babel-preset-latest-node.git",
   "homepage": "https://github.com/christophehurpeau/babel-preset-latest-node",
   "engines": {
-    "node": ">=10.13.0"
+    "node": ">=10.13.0",
+    "yarn": "< 0.0.0"
   },
   "main": "./lib/index.js",
   "sideEffects": false,
@@ -64,7 +65,7 @@
     "@pob/commitlint-config": "1.1.2",
     "@pob/eslint-config": "40.0.0",
     "@pob/eslint-config-node": "40.0.0",
-    "@pob/root": "2.4.1",
+    "@pob/root": "2.4.3",
     "@types/jest": "26.0.14",
     "eslint": "7.11.0",
     "eslint-import-resolver-node": "0.3.4",
