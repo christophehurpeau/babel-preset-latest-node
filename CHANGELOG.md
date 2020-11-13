@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.1.0](https://github.com/christophehurpeau/babel-preset-latest-node/compare/v5.0.0...v5.1.0) (2020-11-13)
+
+
+### Features
+
+* accept target 12.10 ([ed16358](https://github.com/christophehurpeau/babel-preset-latest-node/commit/ed16358c128e7df0534afca64b17d93acc268e4b))
+* set sideEffects in package.json ([9464031](https://github.com/christophehurpeau/babel-preset-latest-node/commit/9464031686d0432d40ffa8f7f4e3ecba5bdb731c))
+
 ## [5.0.0](https://github.com/christophehurpeau/babel-preset-latest-node/compare/v4.1.0...v5.0.0) (2020-09-19)
 
 
