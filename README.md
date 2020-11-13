@@ -20,7 +20,7 @@ Since v2, this package requires `@babel/core@^7.0.0`. If you use babel 6, you ca
 
 ## Options
 
-- `target`: `10`, `10.13`, `12`, `14` or `'current'` (`process.versions.node`)
+- `target`: `10`, `10.13`, `12`, `12.10`, `14` or `'current'` (`process.versions.node`)
 - `loose`: Enable “loose” transformations for any plugins in this preset that allow them (Disabled by default).
 - `modules` - Enable transformation of ES6 module syntax to another module type (Enabled by default to "commonjs"). Can be false to not transform modules, or "commonjs"
 - `es2019` - Enable es2019 features (Enabled by default)
