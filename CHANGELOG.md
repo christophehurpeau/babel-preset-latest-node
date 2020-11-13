@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [5.1.1](https://github.com/christophehurpeau/babel-preset-latest-node/compare/v5.1.0...v5.1.1) (2020-11-13)
+
+
+### Bug Fixes
+
+* remove yarn in engines ([83318fe](https://github.com/christophehurpeau/babel-preset-latest-node/commit/83318fe0b52f3ec606bb8adc73ab4be8ef2a1354))
+
 ## [5.1.0](https://github.com/christophehurpeau/babel-preset-latest-node/compare/v5.0.0...v5.1.0) (2020-11-13)
 
 
