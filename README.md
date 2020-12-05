@@ -29,18 +29,21 @@ Since v2, this package requires `@babel/core@^7.0.0`. If you use babel 6, you ca
 
 ## [Compatibility Table](http://node.green/)
 
-| Feature                                                                                                         | Node 10 | Node 10.13 | Node 12 | Node 14   |
-| --------------------------------------------------------------------------------------------------------------- | ------- | ---------- | ------- | --------- |
+| Feature                                                                                                         | Node 10 | Node 10.13 | Node 12 | Node 14   | Node 14.8 |
+| --------------------------------------------------------------------------------------------------------------- | ------- | ---------- | ------- | --------- | --------- |
 | <h3>ES2015</h3>                                                                                                 |         |            |         |           |
-| [transform-modules-commonjs](https://www.npmjs.com/package/@babel/plugin-transform-modules-commonjs)            | flag    | flag       | flag    | with .mjs |
+| [transform-modules-commonjs](https://www.npmjs.com/package/@babel/plugin-transform-modules-commonjs)            | flag    | flag       | flag    | with .mjs | with .mjs |
 | <h3>ES2019</h3>                                                                                                 |         |            |         |           |
-| [syntax-optional-catch-binding](https://www.npmjs.com/package/@babel/plugin-syntax-optional-catch-binding)      | flag    | yes        | yes     | yes       |
-| [json-strings](https://www.npmjs.com/package/@babel/plugin-proposal-json-strings)                               | yes     | yes        | yes     | yes       |
+| [syntax-optional-catch-binding](https://www.npmjs.com/package/@babel/plugin-syntax-optional-catch-binding)      | flag    | yes        | yes     | yes       | yes       |
+| [json-strings](https://www.npmjs.com/package/@babel/plugin-proposal-json-strings)                               | yes     | yes        | yes     | yes       | yes       |
 | <h3>ES2020</h3>                                                                                                 |         |            |         |           |
-| [nullish-coalescing-operator](https://www.npmjs.com/package/@babel/plugin-proposal-nullish-coalescing-operator) | no      | no         | no      | yes       |
-| [optional-chaining](https://www.npmjs.com/package/@babel/plugin-proposal-optional-chaining)                     | no      | no         | no      | yes       |
+| [nullish-coalescing-operator](https://www.npmjs.com/package/@babel/plugin-proposal-nullish-coalescing-operator) | no      | no         | no      | yes       | yes       |
+| [optional-chaining](https://www.npmjs.com/package/@babel/plugin-proposal-optional-chaining)                     | no      | no         | no      | yes       | yes       |
 | <h3>Shipped Proposals</h3>                                                                                      |         |            |         |           |
-| [numeric-separator](https://www.npmjs.com/package/@babel/plugin-syntax-numeric-separator)                       | no      | no         | no      | yes       |
+| [numeric-separator](https://www.npmjs.com/package/@babel/plugin-syntax-numeric-separator)                       | no      | no         | no      | yes       | yes       |
+| [top-level-await](https://www.npmjs.com/package/@babel/plugin-syntax-top-level-await)                           | no      | no         | no      | no        | yes       |
+
+Note that top level await is syntax only and is only available for supported versions.
 
 ## Install
 
