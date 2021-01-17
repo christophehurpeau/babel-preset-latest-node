@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.3.0](https://github.com/christophehurpeau/babel-preset-latest-node/compare/v5.2.0...v5.3.0) (2021-01-17)
+
+### Features
+
+- update babel deps ([a732b74](https://github.com/christophehurpeau/babel-preset-latest-node/commit/a732b74df2f0b1770437714bfb58334316fbe2e7))
+
 ## [5.2.0](https://github.com/christophehurpeau/babel-preset-latest-node/compare/v5.1.1...v5.2.0) (2020-12-05)
 
 ### Features
