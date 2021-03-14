@@ -40,7 +40,7 @@ Since v2, this package requires `@babel/core@^7.0.0`. If you use babel 6, you ca
 | [nullish-coalescing-operator](https://www.npmjs.com/package/@babel/plugin-proposal-nullish-coalescing-operator) | no      | no         | no      | yes       | yes       |
 | [optional-chaining](https://www.npmjs.com/package/@babel/plugin-proposal-optional-chaining)                     | no      | no         | no      | yes       | yes       |
 | <h3>Shipped Proposals</h3>                                                                                      |         |            |         |           |
-| [numeric-separator](https://www.npmjs.com/package/@babel/plugin-syntax-numeric-separator)                       | no      | no         | no      | yes       | yes       |
+| [numeric-separator](https://www.npmjs.com/package/@babel/plugin-proposal-numeric-separator)                     | no      | no         | no      | yes       | yes       |
 | [top-level-await](https://www.npmjs.com/package/@babel/plugin-syntax-top-level-await)                           | no      | no         | no      | no        | yes       |
 
 Note that top level await is syntax only and is only available for supported versions.
