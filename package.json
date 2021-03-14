@@ -10,8 +10,7 @@
   "repository": "https://github.com/christophehurpeau/babel-preset-latest-node.git",
   "homepage": "https://github.com/christophehurpeau/babel-preset-latest-node",
   "engines": {
-    "node": ">=12.10.0",
-    "yarn": "< 0.0.0"
+    "node": ">=12.10.0"
   },
   "main": "./lib/index.js",
   "sideEffects": false,
