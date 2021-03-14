@@ -8,6 +8,10 @@
 .codeclimate.yml
 .yo-rc.json
 /renovate.json
+/yarn.lock
+/.yarn
+/.yarnrc.yml
+/.pnp.js
 
 /.settings
 /.project

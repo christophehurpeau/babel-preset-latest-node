@@ -7,21 +7,23 @@
   ],
   "author": "Christophe Hurpeau <christophe@hurpeau.com> (https://christophe.hurpeau.com)",
   "license": "ISC",
-  "repository": "https://github.com:christophehurpeau/babel-preset-latest-node.git",
+  "repository": "https://github.com/christophehurpeau/babel-preset-latest-node.git",
   "homepage": "https://github.com/christophehurpeau/babel-preset-latest-node",
   "engines": {
-    "node": ">=10.13.0"
+    "node": ">=12.10.0",
+    "yarn": "< 0.0.0"
   },
   "main": "./lib/index.js",
   "sideEffects": false,
   "scripts": {
     "generate:test-coverage": "rm -Rf docs/coverage/ ; NODE_ENV=production BABEL_ENV=test jest --coverage --coverageReporters=pob-lcov-reporter --coverageDirectory=docs/coverage/",
-    "lint": "eslint --report-unused-disable-directives --quiet *.js lib",
-    "preversion": "npm run lint && repository-check-dirty",
-    "release": "repository-check-dirty && standard-version -a -m 'chore(release): %s [skip ci]' && git push --follow-tags origin master && npm publish",
+    "lint": "yarn run lint:prettier && yarn run lint:eslint",
+    "lint:eslint": "eslint --report-unused-disable-directives --quiet *.js lib",
+    "lint:prettier": "prettier --check .",
+    "preversion": "yarn run lint && repository-check-dirty",
+    "release": "repository-check-dirty && yarn preversion && standard-version -a -m 'chore(release): %s [skip ci]' && git push --follow-tags origin master && npm publish",
     "test": "jest",
-    "test:watch": "jest",
-    "version": "pob-version"
+    "test:watch": "jest"
   },
   "prettier": {
     "trailingComma": "all",
@@ -63,16 +65,15 @@
   "devDependencies": {
     "@babel/core": "7.12.10",
     "@pob/commitlint-config": "2.0.1",
-    "@pob/eslint-config": "41.1.2",
-    "@pob/eslint-config-node": "41.1.2",
+    "@pob/eslint-config": "43.0.0",
+    "@pob/eslint-config-node": "43.1.0",
     "@pob/root": "3.1.1",
     "@types/jest": "26.0.20",
     "eslint": "7.22.0",
     "eslint-import-resolver-node": "0.3.4",
     "eslint-plugin-import": "2.22.1",
     "eslint-plugin-node": "11.1.0",
-    "eslint-plugin-prettier": "3.3.1",
-    "eslint-plugin-unicorn": "24.0.0",
+    "eslint-plugin-unicorn": "25.0.1",
     "husky": "4.3.8",
     "jest": "26.6.3",
     "pob-lcov-reporter": "4.0.1",

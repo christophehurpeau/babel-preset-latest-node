@@ -8,7 +8,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [10.x, 12.x, 14.x]
+        node-version: [12.x, 14.x, 15.x]
 
     steps:
       - uses: actions/checkout@v2
@@ -18,21 +18,34 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      - name: Install Latest Npm
-        run: npm install -g npm@next-7
+      - name: Cache dependencies
+        uses: actions/cache@v2
+        with:
+          path: |
+            .yarn/unplugged
+            .yarn/build-state.yml
+            .yarn/install-state.gz
+          key: v2-dependencies--${{ matrix.node-version }}-${{ runner.OS }}-${{ hashFiles('yarn.lock') }}
+          restore-keys: |
+            v2-dependencies--${{ matrix.node-version }}-${{ runner.OS }}-
+            v2-dependencies--${{ matrix.node-version }}-
 
-      - name: Install Dependencies
-        run: npm ci
+      - name: Check Dependencies
+        run: yarn install --immutable
 
-      - name: Lint
-        run: npm run lint
-        if: startsWith(matrix.node-version, '12.')
+      - name: Prettier
+        run: yarn run lint:prettier
+        if: startsWith(matrix.node-version, '14.')
+
+      - name: Eslint
+        run: yarn run lint:eslint
+        if: startsWith(matrix.node-version, '14.')
 
       - name: Test
-        run: npm run test
+        run: yarn run test
         env:
           CI: true
 
       - name: Check nothing was forgotten before commit
-        if: startsWith(matrix.node-version, '12.')
-        run: npx repository-check-dirty
+        if: startsWith(matrix.node-version, '14.')
+        run: yarn run repository-check-dirty

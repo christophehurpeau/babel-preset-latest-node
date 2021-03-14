@@ -1,18 +1,18 @@
 {
   "pob": {
-    "pob-config": {
-      "documentation": false,
-      "testing": {
-        "codecov": false,
-        "ci": true
-      }
-    },
     "renovate": {
       "enable": true
     },
     "project": {
       "type": "lib",
-      "yarn2": false
+      "yarn2": true
+    },
+    "lib": {
+      "documentation": false,
+      "testing": {
+        "codecov": false,
+        "ci": true
+      }
     }
   },
   "babel-preset-latest-node": {}
