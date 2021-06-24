@@ -65,7 +65,7 @@
     "@babel/core": "7.13.16",
     "@pob/commitlint-config": "2.2.0",
     "@pob/eslint-config": "43.0.0",
-    "@pob/eslint-config-node": "43.1.0",
+    "@pob/eslint-config-node": "43.2.0",
     "@pob/root": "3.2.0",
     "@types/jest": "26.0.23",
     "eslint": "7.29.0",
