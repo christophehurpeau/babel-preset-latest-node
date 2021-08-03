@@ -77,6 +77,6 @@
     "jest": "26.6.3",
     "pob-lcov-reporter": "4.0.1",
     "prettier": "2.2.1",
-    "standard-version": "9.3.0"
+    "standard-version": "9.3.1"
   }
 }
