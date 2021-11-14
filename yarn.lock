@@ -1711,7 +1711,7 @@ __metadata:
     "@types/jest": 26.0.24
     eslint: 7.32.0
     eslint-import-resolver-node: 0.3.6
-    eslint-plugin-import: 2.25.2
+    eslint-plugin-import: 2.25.3
     eslint-plugin-node: 11.1.0
     eslint-plugin-unicorn: 25.0.1
     husky: 4.3.8
@@ -2937,7 +2937,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-module-utils@npm:^2.7.0":
+"eslint-module-utils@npm:^2.7.1":
   version: 2.7.1
   resolution: "eslint-module-utils@npm:2.7.1"
   dependencies:
@@ -2960,18 +2960,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-import@npm:2.25.2":
-  version: 2.25.2
-  resolution: "eslint-plugin-import@npm:2.25.2"
+"eslint-plugin-import@npm:2.25.3":
+  version: 2.25.3
+  resolution: "eslint-plugin-import@npm:2.25.3"
   dependencies:
     array-includes: ^3.1.4
     array.prototype.flat: ^1.2.5
     debug: ^2.6.9
     doctrine: ^2.1.0
     eslint-import-resolver-node: ^0.3.6
-    eslint-module-utils: ^2.7.0
+    eslint-module-utils: ^2.7.1
     has: ^1.0.3
-    is-core-module: ^2.7.0
+    is-core-module: ^2.8.0
     is-glob: ^4.0.3
     minimatch: ^3.0.4
     object.values: ^1.1.5
@@ -2979,7 +2979,7 @@ __metadata:
     tsconfig-paths: ^3.11.0
   peerDependencies:
     eslint: ^2 || ^3 || ^4 || ^5 || ^6 || ^7.2.0 || ^8
-  checksum: 77f7470401dbeeacb6ab3c92c88a36599a30f872c8573e7542802cd24f8c6fb8e7c88fb7e38ae8f87e0bbdfd8ec36522a1db3be0f4034720c194edad7227f835
+  checksum: 536b2e346450efcf545b4743862afe7302a2892bb0a35c04e49af3e1c1fc634f56b7f699ebf40e331459ac44249bdb97ae1e9eed86dc274b53d4ff782932e68f
   languageName: node
   linkType: hard
 
@@ -4222,7 +4222,7 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
-"is-core-module@npm:^2.2.0, is-core-module@npm:^2.7.0":
+"is-core-module@npm:^2.2.0, is-core-module@npm:^2.8.0":
   version: 2.8.0
   resolution: "is-core-module@npm:2.8.0"
   dependencies:
